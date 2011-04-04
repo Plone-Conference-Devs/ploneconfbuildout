@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_factory" meta_type="Plone Factory Tool">
+ <factorytypes>
+  <type portal_type="Sponsor"/>
+  <type portal_type="PloneConfNewsItem"/>
+  <type portal_type="PloneConfNewsItemFolder"/>
+  <type portal_type="Sprint"/>
+  <type portal_type="Course"/>
+  <type portal_type="Homepage"/>
+  <type portal_type="PloneConfDocument"/>
+  <type portal_type="PloneConfFolder"/>
+  <type portal_type="PloneConfImage"/>
+  <type portal_type="PloneConfFile"/>
+ </factorytypes>
+</object>

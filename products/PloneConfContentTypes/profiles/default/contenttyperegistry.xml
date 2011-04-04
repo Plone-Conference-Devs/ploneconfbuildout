@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object name="content_type_registry" meta_type="Content Type Registry">
+
+  <predicate name="ATImage_ext" content_type_name="PloneConfImage"
+     predicate_type="extension">
+   <argument value="jpg,jpeg,png,gif"/>
+  </predicate>
+  <predicate name="image" content_type_name="PloneConfImage"
+     predicate_type="major_minor">
+   <argument value="image"/>
+   <argument value=""/>
+  </predicate>
+
+</object>

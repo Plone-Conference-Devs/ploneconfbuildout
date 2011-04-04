@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_catalog" meta_type="Plone Catalog Tool">
+
+  
+  <index name="getSponsorshipLevel" meta_type="FieldIndex">
+    <indexed_attr value="getSponsorshipLevel"/>
+  </index>
+  
+  <column value="getTicketPrice" />
+  <column value="getEarlybirdPrice" />
+  <column value="getEarlybirdCutOff" />
+  <column value="getSponsorshipLevel" />
+  <column value="getWebsite" />
+  <column value="hasImage" />
+</object>

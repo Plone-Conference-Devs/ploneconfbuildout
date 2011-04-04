@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<import-steps>
+
+ 
+
+
+ <import-step 
+    id="PloneConfContentTypes-Update-RoleMappings2" 
+    handler="Products.PloneConfContentTypes.setuphandlers.updateRoleMappings"
+    title="Update Workflow role mappings for PloneConfContentTypes"
+    version="2010-06-09T12:04:17.238164">
+   <dependency step="PloneConfContentTypes-QI-dependencies"/>
+   updates the workflow role mappings for PloneConfContentTypes
+ </import-step>
+
+ <import-step 
+    id="PloneConfContentTypes-postInstall2" 
+    handler="Products.PloneConfContentTypes.setuphandlers.postInstall"
+    title="manual coded post-install for PloneConfContentTypes"
+    version="2010-06-09T12:04:17.238164">
+   <dependency step="PloneConfContentTypes-QI-dependencies"/>
+   manual coded post-install for PloneConfContentTypes
+ </import-step>
+
+<!-- ##code-section ADDITIONALSTEPS -->
+<!-- ##/code-section ADDITIONALSTEPS -->
+
+</import-steps>
+ 

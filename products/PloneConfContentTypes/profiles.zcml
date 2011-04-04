@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="PloneConfContentTypes">
+
+  <include package="Products.GenericSetup" file="meta.zcml" />
+
+  <!-- ##code-section profiles.zcml-top #fill in your manual code here -->
+  <!-- ##/code-section profiles.zcml-top -->
+
+  <genericsetup:registerProfile
+      name="default"
+      title="PloneConfContentTypes"
+      directory="profiles/default"
+      description="Extension profile for PloneConfContentTypes."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  
+  <!-- ##code-section profiles.zcml-bottom #fill in your manual code here -->
+  <!-- ##/code-section profiles.zcml-bottom -->
+
+</configure>

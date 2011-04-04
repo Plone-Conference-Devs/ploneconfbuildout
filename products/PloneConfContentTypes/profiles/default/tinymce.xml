@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<object>
+
+  <resourcetypes>
+    
+    <linkable>
+      <element value="Topic"/>
+      <element value="Event"/>
+      <element value="File"/>
+      <element value="Folder"/>
+      <element value="Image"/>
+      <element value="Large Plone Folder"/>
+      <element value="News Item"/>
+      <element value="Document"/>
+      <element value="PloneConfFolder" />
+      <element value="PloneConfDocument" />
+      <element value="PloneConfNewsItemFolder" />
+      <element value="PloneConfNewsItem" />
+    </linkable>
+
+    <containsobjects>
+      <element value="Folder"/>
+      <element value="Large Plone Folder"/>
+      <element value="Plone Site"/>
+      <element value="PloneConfFolder" />
+      <element value="PloneConfNewsItemFolder" />
+    </containsobjects>
+
+    <containsanchors>
+      <element value="Event"/>
+      <element value="News Item"/>
+      <element value="Document"/>
+      <element value="ATRelativePathCriterion"/>
+      <element value="PloneConfDocument" />
+      <element value="PloneConfNewsItem" />
+    </containsanchors>
+
+    <imageobjects>
+      <element value="PloneConfImage" />
+    </imageobjects>
+
+    <customplugins>
+      <element value="ploneimage"/>
+      <element value="plonelink"/>
+    </customplugins>
+
+  </resourcetypes>
+
+</object>

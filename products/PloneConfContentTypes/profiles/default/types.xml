@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<object name="portal_types"
+        meta_type="Plone Types Tool">
+ <object name="Sponsor"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="PloneConfNewsItem"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="PloneConfNewsItemFolder"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="Sprint"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="Course"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="Homepage"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="PloneConfDocument"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="PloneConfFolder"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="PloneConfImage"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <object name="PloneConfFile"
+         meta_type="Factory-based Type Information with dynamic views"/>
+ <!-- ##code-section TYPES -->
+ <!-- ##/code-section TYPES -->
+</object>

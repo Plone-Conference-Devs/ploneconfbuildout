@@ -1,0 +1,8 @@
+*.pyc
+omelette/
+src/
+var/
+bin/
+.installed.cfg
+develop-eggs
+parts
