@@ -1,0 +1,13 @@
+<html metal:use-macro="here/main_template/macros/master" i18n:domain="plone" >
+  <body>
+    <div metal:fill-slot="main" class="paypal-redirect" >
+    <script>
+    //<!--
+    jq(document).ready(function() { document.getElementById('paypal-button').submit() })
+    //-->
+    </script>
+    <p>You should be automatically redirected to PayPal.  If not, please follow the following link:</p>
+    <span tal:replace="structure view/getButton">TheButton</span>
+    </div>
+  </body>
+</html>

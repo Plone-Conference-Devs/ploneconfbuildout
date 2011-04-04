@@ -1,0 +1,50 @@
+Changes
+=======
+
+0.4.5 (unreleased)
+------------------
+- plone4 compatibility for paypalthankyou.pt (isAnon is no longer globally defined) [fRiSi]
+
+0.4.4 (2009-08-19)
+------------------
+- Set the shopping cart on the order before the order created workflow transition is fired [larubbio]
+
+0.4.3 (2009-05-15)
+------------------
+- Added Finnish translations. Updated pot files. [ilja.everila]
+
+0.4.2 (2009-03-13)
+------------------
+- Add check for spoofed IPN to IPN handler code [james4765]
+
+0.4.1 (2008-12-31)
+------------------
+* plonify the paypal redirect page. [james4765]
+* Add some more verbose logging, so we can track why some IPNs
+  are not being recognized by the code
+* Changed the response method from Paypal to POST so you don't
+  have a huge, ugly URL coming back.
+* Override /@@getpaid-thank-you so we can extract the order
+  number from the paypal POST response.
+* clean up overrides - remove unneeded override code for the
+  cart actions viewlet, since we are overriding the entire
+  cart wizard view.
+* fill in order data for shipping address, email, and name from
+  the data returned from Paypal
+* Initial IPN functionality working with paypal sandbox - need
+  to wire it into the paypal purchase button to complete
+  round-tripping
+* Add cart saving capability
+* Add capability to choose currency in shopping cart code, and
+  enable round-tripping back from paypal
+* Allow TTW configuration of Paypal merchant ID and selection
+  of sandbox or production site target
+
+0.4 (2008-10-24)
+----------------
+- getting ready to upload to pypi
+
+0.2 (2008-08-23)
+----------------
+- Eggified package
+- Added buildout files and general text documents to project root.

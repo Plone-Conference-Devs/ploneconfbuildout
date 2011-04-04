@@ -1,0 +1,21 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:five="http://namespaces.zope.org/five">
+
+  <browser:page
+     for="*"
+     name="getpaid-checkout-wizard"
+     class="getpaid.paypal.browser.paypalbutton.PaypalButtonView"
+     template="templates/paypalbutton.pt"
+     permission="zope2.View"
+     />
+
+  <browser:page
+     for="*"
+     name="getpaid-thank-you"
+     class="getpaid.paypal.browser.getpaidthankyou.GetpaidPaypalThankyouView"
+     template="templates/paypalthankyou.pt"
+     permission="zope2.View"
+     />
+
+</configure>

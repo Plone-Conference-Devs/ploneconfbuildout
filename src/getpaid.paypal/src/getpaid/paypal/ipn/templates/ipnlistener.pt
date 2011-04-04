@@ -1,0 +1,7 @@
+<html>
+<head><title>Paypal IPN Reactor</title></head>
+  <body>
+    <p>Paypal IPN reactor</p>
+    <span tal:replace="structure view/process">results</span>
+  </body>
+</html>

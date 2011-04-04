@@ -1,0 +1,226 @@
+/**** yahoo css reset ****/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0; padding:0;}
+table{border-collapse:collapse; border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+/**** end yahoo css reset ****/
+
+/**
+* Start Vanilla CSS 1.0.0
+*/
+body{font:9pt/1.5em Arial,Helvetica,sans-serif;}pre,code,tt{font:1em/1.5em 'Andale Mono','Lucida Console',monospace;}h1,h2,h3,h4,h5,h6,b,strong{font-weight:bold;}em,i,dfn{font-style:italic;}dfn{font-weight:bold;}p,code,pre,kbd{margin:0 0 1.5em 0;}blockquote{margin:0 1.5em 1.5em 1.5em;}cite{font-style:italic;}li ul,li ol{margin:0 1.5em;}ul,ol{margin:0 1.5em 1.5em 1.5em;}ul li{list-style-type:disc;}ol li{list-style-type:decimal;}ol ol li{list-style:upper-alpha;}ol ol ol li{list-style:lower-roman;}ol ol ol ol li{list-style:lower-alpha;}dl{margin:0 0 1.5em 0;}dl dt{font-weight:bold;}dd{margin-left:1.5em;}table{margin-bottom:1.4em;width:100%;}th{font-weight:bold;}th,td,caption{padding:4px 10px 4px 5px;}tfoot{font-style:italic;}sup,sub{line-height:0;}abbr,acronym{border-bottom:1px dotted;}address{margin:0 0 1.5em;font-style:italic;}del{text-decoration:line-through;}pre{margin:1.5em 0;white-space:pre;}img.centered,.aligncenter,div.aligncenter{display:block;margin-left:auto;margin-right:auto;}img.alignright{display:inline;}img.alignleft{display:inline;}.alignright{float:right;margin-left:10px;}.alignleft{float:left;margin-right:10px;}* html .clearfix{height:1%;}*+html .clearfix{display:inline-block;}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}* html .group{height:1%;}*+html .group{display:inline-block;}.group:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+/**
+* End Vanilla CSS
+*/
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    text-align: center;
+    background-color: #fff;
+    color: #286daa;
+}
+
+#site-wrapper{
+    text-align: left;
+    width: 940px;
+    margin: 10px auto 20px auto;
+    font-weight: bold;
+}
+
+#header, #content, #footer{
+    margin: 0 20px;
+}
+
+#header{
+    background-image: url(../images/bg_main.gif);
+    background-repeat: no-repeat;
+    height: 569px;
+    padding-right: 10px;
+}
+
+#plone-logo{
+    margin-top: 287px;
+    float: right;
+}
+
+#welcome{
+    float: right;
+    clear: right;
+    padding-right: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1c82b2;
+}
+
+a, a:visited, a:hover{
+    color: #286daa;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#welcome .fancy{
+    font-size: 1.5em;
+}
+
+h1{
+    font-size: 4.2em;
+    letter-spacing: -3px;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+#welcome p{
+    margin-bottom: 0px;
+    margin-left: 40px;
+    letter-spacing: -1px;
+}
+
+#welcome .details{
+    font-size: 1.5em;
+    line-height: 1.1em;
+    margin-bottom: 0px;
+}
+
+#welcome a, 
+#welcome a:visited,
+#welcome a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#welcome a:hover{
+    text-decoration: underline;
+}
+
+.fancy{
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#content{
+    margin-top: 40px;
+}
+
+#dates{
+    letter-spacing: -1px;
+    background-color: #e3ebf7;
+    width: 233px;
+    float: left;
+    margin-right: 40px;
+}
+
+#dates .visualPadding{
+    padding: 15px 10px 10px 10px;
+}
+
+#dates .title{
+    text-transform: uppercase;
+    background-image: url(../images/calendar.gif);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+#dates ul,
+#dates li{
+    list-style-type:none;
+    margin: 0px;
+}
+
+#dates li{
+    padding-bottom: 20px;
+    margin-top: 15px;
+    background-image: url(../images/wiggle.gif);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+}
+
+#dates .date{
+    padding-left: 50px;
+    display: block;
+    background-image: url(../images/date.gif);
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    line-height: 1.2em;
+}
+
+#intro{
+    float: left;
+    width: 550px;
+    color: #286daa;
+}
+
+#intro p{
+    line-height: 1.3em;
+    margin-bottom: 1.3em;
+    color: #333;
+}
+
+#intro a,
+#intro a:visited,
+#intro a:hover{
+    color: #286daa;
+    text-decoration: none;
+}
+
+#contact{
+    color: #fff;
+    background-color: #1c82b2;
+}
+
+#contact p{
+    margin: 0px;
+    padding: 10px 1em;
+}
+
+#contact a, 
+#contact a:visited,
+#contact a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    text-decoration: underline;
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+tr {
+    border-bottom: 1px dashed #cccccc;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.packages {
+    font-weight: normal;
+    color: #333;
+}
+
+.firstcome {
+    display: block;
+    font-size: 0.8em;
+    line-height: 1.3em;
+}

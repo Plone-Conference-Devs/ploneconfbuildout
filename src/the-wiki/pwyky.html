@@ -1,0 +1,576 @@
+<html lang="en-uk" xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="PWYKY-PROFILE-GOES-HERE">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <!-- Forces IE8+ into newest rendering engine even if on an intranet. This has to be defined before any script/style tags. -->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"> 
+    <base href="http://www.ploneconf2010.org/the-wiki"><!--[if lt IE 7]></base><![endif]-->
+    
+    
+    <title>PWYKY-TITLE-GOES-HERE</title>
+
+  
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/base.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/public.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/columns.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/authoring.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/portlets.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/controlpanel.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/deprecated.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/navtree.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/invisibles.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/forms.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/ploneKss.css" media="screen" type="text/css" rel="stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/print.css" media="print" type="text/css" rel="stylesheet">
+    <style media="all" type="text/css">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++tinymce.stylesheets/tinymce.css);</style>
+    <style media="screen" type="text/css">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++plone.formwidget.autocomplete/jquery.autocomplete.css);</style>
+    <style media="screen" type="text/css">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++plone.formwidget.contenttree/contenttree.css);</style>
+    <style media="screen" type="text/css">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++netsight.ploneconf2010_theme.stylesheets/overlays.css);</style>
+    <style media="screen" type="text/css">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++netsight.ploneconf2010_theme.stylesheets/deplone4.css);</style>
+    <style media="screen" type="text/css">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++netsight.ploneconf2010_theme.stylesheets/main.css);</style>
+        <!--[if lt IE 9]>    
+    
+    <style type="text/css" media="screen">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++netsight.ploneconf2010_theme.stylesheets/ie-pre9.css);</style>
+        <![endif]-->
+    
+        <!--[if lt IE 8]>    
+    
+    <style type="text/css" media="screen">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++netsight.ploneconf2010_theme.stylesheets/ie-pre8.css);</style>
+        <![endif]-->
+    
+        <!--[if lt IE 7]>    
+    
+    <style type="text/css" media="screen">@import url(http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/++resource++netsight.ploneconf2010_theme.stylesheets/ie-pre7.css);</style>
+        <![endif]-->
+    
+    <link href="http://www.ploneconf2010.org/portal_css/Plone%20Conf%202010%20Theme/ploneCustom.css" media="all" type="text/css" rel="stylesheet">
+
+  
+    <link href="http://www.ploneconf2010.org/portal_kss/Plone%20Conf%202010%20Theme/++resource++tinymce.kss/tinymce.kss" type="text/css" rel="kinetic-stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_kss/Plone%20Conf%202010%20Theme/at.kss" type="text/css" rel="kinetic-stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_kss/Plone%20Conf%202010%20Theme/plone.kss" type="text/css" rel="kinetic-stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_kss/Plone%20Conf%202010%20Theme/++resource++plone.app.form.kss" type="text/css" rel="kinetic-stylesheet">
+    <link href="http://www.ploneconf2010.org/portal_kss/Plone%20Conf%202010%20Theme/++resource++plone.app.z3cform" type="text/css" rel="kinetic-stylesheet">
+  
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/jquery.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/jquery-integration.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/++resource++plone.app.jquerytools.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/++resource++plone.app.jquerytools.overlayhelpers.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/register_function.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/plone_javascript_variables.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/nodeutilities.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/cookie_functions.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/livesearch.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/select_all.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/dragdropreorder.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/collapsiblesections.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/form_tabbing.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/popupforms.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/input-label.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/jquery.highlightsearchterms.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/first_input_focus.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/accessibility.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/styleswitcher.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/toc.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/collapsibleformfields.js" type="text/javascript"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/IE8.js"></script>
+       <![endif]-->
+     
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/++resource++plone.formwidget.autocomplete/jquery.autocomplete.min.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/++resource++plone.formwidget.contenttree/contenttree.js" type="text/javascript"></script>
+    <script src="http://www.ploneconf2010.org/portal_javascripts/Plone%20Conf%202010%20Theme/++resource++netsight.ploneconf2010_theme.javascript/pctheme.js" type="text/javascript"></script>
+        
+
+    <link href="http://www.ploneconf2010.org/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link href="http://www.ploneconf2010.org/touch_icon.png" rel="apple-touch-icon">
+
+
+
+    <link title="Front page" href="http://www.ploneconf2010.org" rel="home">
+
+    <link title="Site Map" href="http://www.ploneconf2010.org/sitemap" rel="contents">
+
+
+
+
+
+
+    <link title="Search this site" href="http://www.ploneconf2010.org/search_form" rel="search">
+
+
+
+        
+        
+        
+        
+        
+
+        <meta content="Plone - http://plone.org" name="generator">
+    
+</head><body dir="ltr" class="template-ploneconfdocument_view portaltype-ploneconfdocument section-the-wiki">
+
+<div id="visual-portal-wrapper">
+
+        <div class="row" id="portal-top">
+<div class="cell width-full position-0"> <!-- TODO: Temporary, this one should be in the template that is inserted -->
+            <div id="portal-header">
+    <p class="hiddenStructure">
+  <a href="http://www.ploneconf2010.org/the-wiki#content" accesskey="2">Skip to content.</a> |
+
+  <a href="http://www.ploneconf2010.org/the-event#portlet-navigation-tree" accesskey="6">Skip to navigation</a>
+</p>
+
+
+
+
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav"><li class="" id="portaltab-the-event"><a title="Talks, sprints..." href="http://www.ploneconf2010.org/the-event"><span>The Event</span><span class="tabDescription">Talks, sprints...</span></a></li><li class="plain" id="portaltab-the-venue-bristol"><a title="Travel, accommodation..." href="http://www.ploneconf2010.org/the-venue-bristol"><span>The Venue &amp; Bristol</span><span class="tabDescription">Travel, accommodation...</span></a></li><li class="plain" id="portaltab-the-party"><a title="Venue, band, food..." href="http://www.ploneconf2010.org/the-party"><span>The Party</span><span class="tabDescription">Venue, band, food...</span></a></li><li class="plain" id="portaltab-register"><a title="Register for PloneConf." href="http://www.ploneconf2010.org/register"><span>Register</span><span class="tabDescription">Register for PloneConf.</span></a></li><li class="plain" id="portaltab-news"><a title="" href="http://www.ploneconf2010.org/news"><span>News</span><span class="tabDescription">&nbsp;</span></a></li></ul>
+    <div class="plain" id="programme-link">
+      
+      <img alt="Monday 25th - Sunday 31st October 2010" src="/++resource++netsight.ploneconf2010_theme.images/calendar.gif">
+      
+    </div>
+
+
+<a href="http://www.ploneconf2010.org" accesskey="1" title="Home" id="portal-logo">
+    <img width="371" height="222" title="" alt="" src="http://www.ploneconf2010.org/logo.png"></a>
+
+<div id="site-title-wrapper">
+  
+  <div class="visualClear"><!-- ie --></div>
+  
+    <span id="site-title">
+      <a href="http://www.ploneconf2010.org" class="visualTextOverlay" title="Home">
+	<span></span>Plone Conference Bristol 2010
+      </a>
+    </span>
+  
+  <div id="conf-info">
+  <span class="visualTextOverlay" id="conf-info-date">
+    <span></span>October 25th - October 31st 2010<br>
+  </span>
+  <span class="visualTextOverlay" id="conf-info-venue">
+    <span></span>Thistle Grand Hotel, Bristol, UK<br>
+  </span>
+  <span class="visualTextOverlay" id="conf-info-hosted">
+    <a title="Netsight Internet Solutions" href="http://www.netsight.co.uk">
+      <span></span>Hosted by Netsight Internet Solutions
+    </a>
+  </span>
+  </div>
+  <a title="Plone.org" href="http://plone.org" id="plone-logo">
+    <img width="159" height="42" alt="Plone.org" src="/++resource++netsight.ploneconf2010_theme.images/plone_logo.png">
+  </a>
+  <div class="visualClear"><!-- ie --></div>
+</div>
+
+<div id="sponsor-tickets-wrapper">
+  <a title="Sponsor the conference" href="/sponsor" id="main-become-sponsor-link">
+    <span class="visualTextOverlay">
+      <span></span>Become a sponsor
+    </span>
+  </a>
+  <div id="main-buy-tickets-link-wrapper">
+    <a title="Buy tickets" href="/register" id="main-buy-tickets-link">
+      <span class="visualTextOverlay">
+	<span></span>
+	Buy Tickets
+      </span>
+      
+      <span id="buy-info">
+	secure your place now for<br>
+	the bargain price of:<br>
+      </span>
+      <span id="buy-cost">
+	
+	
+	  <span id="cost-price">
+	    &pound;320</span>
+	  <span class="highlight">+vat</span>
+	
+      </span>
+    </a>
+  </div>
+  <div class="visualClear"><!-- ie --></div>
+</div>
+
+</div>
+
+</div>
+        </div>
+    <div class="row" id="portal-columns">
+
+        <div class="cell width-full position-0" id="portal-column-content">
+
+            <div id="viewlet-above-content"><div id="section-title-wrapper">
+  <span class="section-the-wiki" id="section-title">
+    <a title="The Wiki" href="http://www.ploneconf2010.org/the-wiki" class="visualTextOverlay">
+      <span></span>       The Wiki     </a>
+  </span>
+  <div class="visualClear"><!-- ie --></div>
+</div>
+
+<div class="contentBorder" id="border-above-content">
+  <span class="rightCorner"></span>
+</div>
+</div>
+            
+            
+                <div class="">
+
+                    
+
+                    
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+			  PWYKY-CONTENT-GOES-HERE      
+
+      
+    
+                        </div>
+                    
+
+                    
+                </div>
+            
+        
+            <div id="viewlet-below-content"><div class="contentBorder" id="border-below-content">
+  <span class="rightCorner"></span>
+</div>
+
+
+    
+
+
+
+
+
+
+</div>
+        </div>
+
+        
+        
+
+        
+        
+	
+    </div>
+    
+    <div class="row" id="portal-below-columns">
+      <div class="cell width-full position-0">
+	<div id="viewlet-below-columns"><div id="conference-sponsors">
+  <ul class="visualNoMarker visualNoMargin">
+    
+      <li class="" id="sponsor-gold">
+	<div class="visualPadding">
+	  <h4 class="visualTextOverlay">
+	    <span></span>Gold Sponsors:
+	  </h4>
+	  <ul class="visualNoMarker">
+	    
+	      <li>
+		<p>
+		  <a title="Fry-IT" href="http://www.fry-it.com" class="more">
+		    <img alt="Fry-IT" src="http://www.ploneconf2010.org/become-a-sponsor/fry-it/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="Four Digits" href="http://www.fourdigits.nl" class="more">
+		    <img alt="Four Digits" src="http://www.ploneconf2010.org/become-a-sponsor/four-digits/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	  </ul>
+
+	</div>
+      </li>
+    
+    
+      <li class="" id="sponsor-silver">
+	<div class="visualPadding">
+	  <h4 class="visualTextOverlay">
+	    <span></span>Silver Sponsors:
+	  </h4>
+	  <ul class="visualNoMarker">
+	    
+	      <li>
+		<p>
+		  <a title="RedTurtle Technology" href="http://www.redturtle.net/" class="more">
+		    <img alt="RedTurtle Technology" src="http://www.ploneconf2010.org/become-a-sponsor/redturtle-technology/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="Enfold Systems" href="http://www.enfoldsystems.com/" class="more">
+		    <img alt="Enfold Systems" src="http://www.ploneconf2010.org/become-a-sponsor/enfold-systems/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="Infrae" href="http://www.infrae.com" class="more">
+		    <img alt="Infrae" src="http://www.ploneconf2010.org/become-a-sponsor/infrae/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="4teamwork" href="http://www.4teamwork.ch/de" class="more">
+		    <img alt="4teamwork" src="http://www.ploneconf2010.org/become-a-sponsor/4teamwork/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="Abstract Open Solutions" href="http://www.abstract.it" class="more">
+		    <img alt="Abstract Open Solutions" src="http://www.ploneconf2010.org/become-a-sponsor/abstract-open-solutions/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	  </ul>
+
+	</div>
+      </li>
+    
+    
+      <li class="" id="sponsor-bronze">
+	<div class="visualPadding">
+	  <h4 class="visualTextOverlay">
+	    <span></span>Bronze Sponsors:
+	  </h4>
+	  <ul class="visualNoMarker">
+	    
+	      <li>
+		<p>
+		  <a title="Headnet" href="http://www.headnet.dk" class="more">
+		    <img alt="Headnet" src="http://www.ploneconf2010.org/become-a-sponsor/headnet/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="Six feet up" href="http://www.sixfeetup.com/" class="more">
+		    <img alt="Six feet up" src="http://www.ploneconf2010.org/become-a-sponsor/six-feet-up/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="CMS Communications Inc" href="http://www.cmscom.jp/" class="more">
+		    <img alt="CMS Communications Inc" src="http://www.ploneconf2010.org/become-a-sponsor/cms-communications-inc/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="Pilot Systems" href="http://www.pilotsystems.net/" class="more">
+		    <img alt="Pilot Systems" src="http://www.ploneconf2010.org/become-a-sponsor/pilot-systems/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	    
+	      <li>
+		<p>
+		  <a title="STX Next" href="http://www.stxnext.pl" class="more">
+		    <img alt="STX Next" src="http://www.ploneconf2010.org/become-a-sponsor/stx-next/image_default">
+		    
+		  </a>
+		</p>
+	      </li>
+	    
+	  </ul>
+
+	</div>
+      </li>
+    
+    
+      <li class=" last" id="sponsor-supporting">
+	<div class="visualPadding">
+	  <h4 class="visualTextOverlay">
+	    <span></span>Supporting Sponsors:
+	  </h4>
+	  <ul class="visualNoMarker">
+	    
+	      <li>
+		<p>
+		  <a title="Andrzej Mleczko" href="http://blog.redturtle.it/redturtle-blog/authors/amleczko" class="more">
+		    
+		    Andrzej Mleczko
+		  </a>
+		</p>
+	      </li>
+	    
+	  </ul>
+
+	</div>
+      </li>
+    
+  </ul>
+  <p class="discreet beASponsorLink">
+    <a class="more" title="Become a sponsor" href="/sponsor">
+      <img alt="- be a sponsor" src="/++resource++netsight.ploneconf2010_theme.images/be_a_sponsor.png">
+    </a>
+  </p>
+  <div class="visualClear"><!-- ie --></div>
+</div>
+
+<div class="visualClear"><!-- ie --></div>
+</div>
+      </div>
+    </div>
+
+    
+        <div class="row" id="portal-footer">
+  <div class="cell width-full position-0">
+    <div class="visualPadding">
+      <h5 class="hiddenStructure">Short Sitemap</h5>
+      <ul class="level0" id="footer-sitemap">
+	<li>
+	  <a href="http://www.ploneconf2010.org/the-event">The Event</a>
+	  <ul class="level1">
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-event/intro">A Whole Week of Plone Goodness!</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-event/training">Training</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-event/plone-in-business">Plone in Business</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-event/keynotes">Keynotes</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-event/talks">Talks</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-event/open-space">Open Space</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-event/sprints">Sprints</a>
+	    </li>
+	  </ul>
+	</li>
+	<li>
+	  <a href="http://www.ploneconf2010.org/the-venue-bristol">The Venue &amp; Bristol</a>
+	  <ul class="level1">
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-venue-bristol/venue">The Venue</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-venue-bristol/getting-to-bristol">Getting To Bristol</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-venue-bristol/accommodation">Accommodation</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-venue-bristol/about-bristol">About Bristol</a>
+	    </li>
+	  </ul>
+	</li>
+	<li>
+	  <a href="http://www.ploneconf2010.org/the-party">The Party</a>
+	  <ul class="level1">
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-party/the-party">The Party</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-party/beer-pies">Beer &amp; Pies</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-party/the-band">The Band</a>
+	    </li>
+	    <li>
+	      <a href="http://www.ploneconf2010.org/the-party/the-venue">The Venue</a>
+	    </li>
+	  </ul>
+	</li>
+	<li>
+	  <a href="http://www.ploneconf2010.org/register">Register</a>
+	  
+	</li>
+	<li>
+	  <a href="http://www.ploneconf2010.org/news">News</a>
+	  
+	</li>
+      </ul>
+
+      <div class="visualClear"><!-- ie --></div>
+      <div id="footer-info">
+	<p id="footer-contact">
+	  Email: 
+	  <a title="email us" href="mailto:info@ploneconf2010.org">
+	    info@ploneconf2010.org
+	  </a>
+	</p>
+	<p id="copyright">
+	  <a title="Netsight Internet Solutions" href="http://www.netsight.co.uk">
+	    &copy;
+	    2010
+	    Netsight Internet Solutions
+	  </a>
+	</p>
+      </div>
+      
+      <div class="visualClear"><!-- ie --></div>
+    </div>
+  </div>
+</div>
+<div class="visualClear"><!-- ie --></div>
+
+
+<!-- NAGIOS COMMENT DO NOT DELETE -->
+<script type="text/javascript">
+         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
+<script type="text/javascript">
+         try {
+         var pageTracker = _gat._getTracker("UA-16130847-1");
+         pageTracker._trackPageview();
+         } catch(err) {}</script>
+    
+
+</div>
+</body></html>

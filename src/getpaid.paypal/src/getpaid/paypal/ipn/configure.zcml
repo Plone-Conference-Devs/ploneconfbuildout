@@ -1,0 +1,13 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           xmlns:five="http://namespaces.zope.org/five">
+
+  <browser:page
+     for="*"
+     name="getpaid-paypal-ipnreactor"
+     class="getpaid.paypal.ipn.submit_handler.IPNListener"
+     template="templates/ipnlistener.pt"
+     permission="zope2.View"
+     />
+
+</configure>
