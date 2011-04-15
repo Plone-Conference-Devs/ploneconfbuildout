@@ -1,5 +1,0 @@
-<metal:page i18n:domain="getpaid.paypal">
-	<!-- workaround for i18ndude bug -->
-	<i18n:workaround translate="do_not_translate" />
-</metal:page>
-
