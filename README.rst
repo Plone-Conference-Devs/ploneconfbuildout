@@ -32,8 +32,9 @@ Major TODO's
    sponsors product that could do this? That would be useful on several plone 
    infra sites IMHP/
  * Add the following pages by default and load with generic content for modifying 
-    later (so all the links works): 
-    * Event: about the event, the schedule, sprint info, etc...
-    * The Area: on the venue, getting to sf, etc
-    * Party Details
-    * Sponsor: what the levels are and how to contact
+   later (so all the links works):
+   
+   * Event: about the event, the schedule, sprint info, etc...
+   * The Area: on the venue, getting to sf, etc
+   * Party Details
+   * Sponsor: what the levels are and how to contact
