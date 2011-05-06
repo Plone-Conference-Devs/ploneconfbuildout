@@ -1,8 +1,10 @@
 *.pyc
+*~
 omelette/
 src/netsight.*
 var/
 bin/
 .installed.cfg
+.mr.developer.cfg
 develop-eggs
 parts
