@@ -1,7 +1,7 @@
 *.pyc
 *~
 omelette/
-src/netsight.*
+src/*
 var/
 bin/
 .installed.cfg
