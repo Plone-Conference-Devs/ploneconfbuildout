@@ -49,13 +49,22 @@ This is probably the way we want to go (vs. having people purchase tickets via
 BPT's UI) so that we can collect and store our own info. BPT supports custom
 fields but its API does not seem to.
 
-The registration form in netsight.conferenceregistration will need to be updated
-to retrieve price info and ids from BPT so it can store the selected price_id
-in the product_code of the cart line item.
+As of 5/8/2011 the basic payment integration with getpaid is working. However
+at this point it is just using a dummy hardcoded price level.
 
-Currently the integration is not working yet. I'm getting "Not enough tickets
-available" as the error code when it tries to add tickets to the cart. I presume
-that's because our event hasn't been approved yet.
+To do:
+
+* The registration form in netsight.conferenceregistration will need to be updated
+  to retrieve price info and ids from BPT so it can store the selected price_id
+  in the product_code of the cart line item.
+
+* At this point the BPT payment processor only handles registering for ticketless
+  will-call. If we want real tickets we need to make it do another step to pass
+  the shipping info (and need to make it smart enough to only do that for US
+  and Canada as that's all BPT supports).
+
+* We probably should do some customization of the getpaid checkout wizard to
+  streamline it (it asks for some stuff we don't care about).
 
 Steps to set up for testing:
 
@@ -71,3 +80,5 @@ Steps to set up for testing:
    enable the IRegistrationFolder marker interface.
 6. Go to /registrations/@@registration and go through the checkout process.
    Use a dummy credit card #, 1234567890000000 will work.
+7. After clicking the button to make a payment, the API calls should be visible in
+   the BPT Developer "API Results" console.
