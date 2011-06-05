@@ -8,3 +8,5 @@ bin/
 .mr.developer.cfg
 develop-eggs
 parts
+eggs
+adminPassword.txt
