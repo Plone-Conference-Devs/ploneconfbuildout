@@ -10,3 +10,4 @@ develop-eggs
 parts
 eggs
 adminPassword.txt
+buildout-cache
