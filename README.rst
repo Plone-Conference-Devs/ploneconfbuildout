@@ -16,6 +16,15 @@ For development::
  
 Note that the default port is 12801 instead of 8080. 
 
+Live Setup
+----------
+Build as ploneconf user, since they git keys are set up for them always.
+
+> ./bin/buildout -c live.cfg
+
+We are running currently with apache and haproxy. A backup of their configs are 
+in this config directory. Both have been intalled with the std nix packager.
+
 
 Notes on Brown Paper Tickets integration
 ----------------------------------------
