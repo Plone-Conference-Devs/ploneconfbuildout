@@ -1,0 +1,24 @@
+LoadModule proxy_module /usr/lib/apache2/modules/mod_proxy.so
+LoadModule proxy_ftp_module /usr/lib/apache2/modules/mod_proxy_ftp.so
+LoadModule proxy_http_module /usr/lib/apache2/modules/mod_proxy_http.so
+LoadModule proxy_connect_module /usr/lib/apache2/modules/mod_proxy_connect.so
+LoadModule proxy_balancer_module /usr/lib/apache2/modules/mod_proxy_balancer.so
+
+<VirtualHost *:80>
+	ServerAdmin webmaster@ploneconf.org
+        ServerAlias www.ploneconf.org
+
+         RewriteEngine On
+         RewriteRule ^/(.*) \
+             http://127.0.0.1:10002/VirtualHostBase/http/%{SERVER_NAME}:80/conf2011/PloneConf/VirtualHostRoot/$1 [L,P]
+
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit,
+	# alert, emerg.
+	LogLevel warn
+
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+
+</VirtualHost>
