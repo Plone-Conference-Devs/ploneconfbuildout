@@ -1,0 +1,921 @@
+Timestamp,Your Name,Speaker Bio,Title of Talk,Summary of Talk,Talk Outline,Talk Length,Intended Audience,Your Email,Have you ever given a talk at a Plone conference before?
+7/9/2011 22:04:11,Lennart Regebro,"Lennart Regebro has been using Python and Zope for more than ten years, and is the owner of Colliberty, a small web company in Kraków, Poland.",Diazo tricks for Python programmers,"CSS works in ways that can be quite counter-intuitive to somebody coming from a programming background, and mapping a theme with Diazo can become quite a mess if the CSS of the theme is a bad match for Plone.
+
+This talk will take up the various hitches and problems I've encountered in theming with Diazo, and how I solved them.
+
+Warning: Contains trace amounts of XPaths, known to be confusing to children.","Very approximate timings:
+
+* Intro to Diazo and it's rules (5 min)
+* A couple of tricky situations and how I solved them. (5 min)
+* Introduction to XPaths (5 min)
+* A couple of more tricky situations and how I solved them with XPaths (10 min)
+* What to do when the HTML/CSS *really* sucks. (30 seconds)
+
+The talk will be accessible to anyone including newbies, and hopefully useful for everyone except those who have already done a lot of Diazo theming.",30 minutes,"Everyone can watch this talk, drunk or otherwise.",lregebro@jarn.com,Yes
+7/10/2011 2:12:17,Michael Davis,"A librarian working with Plone for 10 years with an under resourced, over achieving team. Writing tests for a number of  years including some attempts at test driven development, a few of which were successful.",Testing for pragmatic people,"In a busy schedule people tend to feel that testing gets in the way. This talk aims to demonstrate why we should do testing, what kinds of testing are there anyway, and how can this be done cheaply and efficiently.","Cover the pros and cons of testing, expensive, time consuming, technical debt, more robust code, refactoring etc. The types of testing from unit testing through to continuous integration testing and user acceptance testing focusing on which are useful in which context. Finish with some concrete examples of how to make your testing life in Plone easier.",30 minutes,"Everyone can watch this talk, drunk or otherwise.",msmith64@naz.edu,Yes
+7/10/2011 23:33:51,Andreas Jung,"Andreas Jung is a long-time contributor to Zope and Plone and author of various Python, Zope and Plone add-ons. He is focused on high-scalable and advanced web-solutions and specialized in the field of electronic publishing. Andreas Jung is the funder and CEO of ZOPYX (www.zopyx.com)",Plone Publishing Maschine - State of the Publishing with Plone ,"My talk gives an overview about using Plone in the field of professional electronic publishing. Electronic publishing covers the authoring, conversion and publishing of content in various formats on the web. Single-Source Multi-Channel Publishing made easy with Plone. ","Plone is the perfect CMS in the field of electronic publishing (based on features like complex content-types, its permission-role model, workflow etc.). The production of contents for various output channels (Web, E-Book, Print) became more and more complex. A common problem is to automatically convert the different output formats from a single content-source. My talk introduces the Produce & Publish platform which supports the authoring, management, conversion and publication of content and generated content under one hood. 
+
+The talk gives a technical introduction into Produce & Publish and the technical aspects of running an e-publishing solution in general. I will focus on the production of PDF documents and e-books and cover various conversion options (free to commercial) and discuss their pros and cons.",45 minutes,"Everyone can watch this talk, drunk or otherwise., Decision makers will go gaga for this one. , Particularly good for people working in education and/or government",lists@zopyx.com,Yes
+7/15/2011 4:27:55,Andrew Mleczko,"Andrew has been involved in the Python community since 2003. He has contributed multiple products (Plone, Pyramid, FormAlchemy and others) and has spoken at various Plone and Python conferences. In his current projects he is integrating Plone with Pyramid.",How to build complex web applications having fuin?,"Web development is a complexity challenge nowadays. Growing number of functionalities results in customer expectations increase which makes project design more difficult. Using proper tools that suite your customer needs is essential.
+
+In this talk I would like to present recent successful story using closely together Pyramid and Plone. Basing on this example I wished to highlight the main reasons for using Plone as a CMS only and letting Pyramid do the rest (ERP). Moreover, I will underscore good and bad practices during integration process and how to make farsighted architectural decisions in a right moment.","+ why this talk?
++ Plone vs. Pyramid
++ integration story
+  + project requirements
+  + project gotchas
++ architectural decisions
+  + how to build the team?
+  + which tools to use? - integration layers
+  + timing
++ why not other competitors?
++ why you should use pyramid_formalchemy?",45 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. ",amleczko@returtle.it,Yes
+7/15/2011 14:24:35,Paul Roeland,"Passionate about providing non-profits with the best tools available. I've worked as Plone integrator, sysadmin, e-campaigner, and more often than not as combination of all of the above. And I know communication is as important as script-fu. ",Tone that Plone!,"Make Plone lean and mean. By focusing on smart choices over the entire lifetime of a site, from technical design to layout to deployment, you can make Plone a good option even for smaller, resource-challenged organisations or departments. Reduce operating and upgrade costs, and maintain that lean, toned, up-to-date appearance over the years your site runs!","The overall aim is a practical guide to implementing Plone in a cost-effective way, and how maintaining a strict focus should influence your decisions over the entire lifetime of a website. This includes:
+- Reduce, Re-use, Recycle: rethink your requirements, so you carefully pick only a handful of high-quality add-ons. Learn to pick the right ones.
+- Be stylish, not a fashion victim: why your layout should be like the Little Black Dress, combined with a few well-chosen accessories.
+- Future-proof your site: stick to standards, from tagging to IPTC. Don't re-invent the wheel. Metadata is good, over-customization is bad. Avoid upgrade pains! 
+Splurge on the Good Things: why even smaller sites can benefit from some enterprise tools. Enjoy all that open source gives you: the best tools for specific jobs.
+Lean deployment: a happy site needs monitoring and maintenance. But be pragmatic; if 99.9999% uptime will bankrupt you, re-think. How even a simple robots.txt can reduce your hosting plan, and why you need a working knowledge of *nix scripting. ",45 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Particularly good for people working in education and/or government, non-profits",paul@cleanclothes.org,No
+7/16/2011 5:59:42,"Martin Aspeli, David Glick, Laurence Rowe and David Gietma, Calvin Hendryx-Parker","Martin, David, Laurence and Rob are, in various combinations, the principal architects and maintainers behind Dexterity, Diazo and Deco.","State of the Three D's: Dexterity, Diazo and Deco","Dexterity, Diazo and Deco have long been promised as integral components in Plone's future. Unbeknownst to many, all of them have made great strides recently and either are, or are fast becoming, production-ready. This talk will give a summary of the how far along each of the three technologies is, and discuss how they fit together to make a compelling improvement to Plone.","We will discuss:
+
+* Dexterity 1.0 and beyond
+ - How Dexterity compares to Archetypes
+ - Who is using it
+ - Where to go to get started
+* Diazo and plone.app.theming
+ - Why Diazo is fast becoming the preferred way to theme Plone sites
+ - What the future holds for Diazo
+* Deco and CMS UI
+ - The current state of Deco
+ - How Deco can be adopted as an add-on in the near term
+* How Dexterity, Diazo and Deco all fit together
+ - Forms-driven vs. layout-driven content types
+ - Theming layout-driven content
+ - Site layouts vs. Diazo themes
+ - Possibilities for future convergence",45 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. ",optilude@gmail.com,Yes
+7/18/2011 4:04:12,Dan Jacka,"I've been building websites with Plone since 2008, mostly for large government agencies in New Zealand. I've presented at World Plone Day events.
+",How to think in Plone (when those about you think in Drupal),"Where I work, most developers come to Plone from Drupal. To build really great websites they must let go of old idioms and learn to think in Plone. In this talk I will explain how to use the features of Plone that are most essential in solving your customers' problems. To better emphasize the mindset shift, I'll compare with equivalent approaches in Drupal.
+
+There're two target audiences for this talk: 1) the small set of integrators taking this same journey between CMSes, and 2) the wider Plone community curious about how the Plone out-of-the-box experience compares to another CMS from an integrator's perspective.
+","My Plone life began in 2008 when I was given a copy of Professional Plone Development and asked to build a site. Before then I'd been working with Drupal. As I progressed I found that the biggest challenge wasn't the technology itself, but learning which features were best for solving the content management problems of my customer. Now when I help colleagues learn Plone (often coming from Drupal), they run up against all the same problems. In this talk I aim to help others become productive with Plone faster, and to illustrate to longtime Plone devs the kind of problems new integrators can face.
+
+First, some boundaries: this is not about Plone versus Drupal. I find such religious wars tiresome and unproductive. Also, I won't be describing every little useful add-on (though there are some fab ones out there). This is about the philosophy at the core of the system.
+
+For those unfamiliar, Drupal is a PHP application that stores content in a SQL database. Every piece of content is a 'node', stored in the node table. Looking up a field on your custom content type sees the engine run JOIN queries keyed from the node ID of that particular piece of content. For integrators, Drupal core exposes 'hooks'. Name a function in your module appropriately and it'll be fired as a hook when the user requests a page.
+
+The hooks system combined with lots of TTW configurability of nodes makes Drupal very malleable. It's like a block of clay: it changes shape even if you're only holding it! The ease with which you can bend it into shape is the biggest driver behind Drupal's success. But things can get messy fast.
+
+Plone on the other hand is like a block of wood. It's solid and strong. If you want to make something from it you'll need decent tools; you'll need to know how to recognise the grain and how to plane with it, not against it; as your skills improve you'll learn when going against the grain can work. Oh, and watch out for the occasional knot...
+
+Yes I know wood is implicitly a superior building material than clay. That's my bias showing through. But clay has its uses. Coating wood with clay is never a good idea though.
+
+Heading deeper into specifics: databases. Being brutal, Drupal is a wrapper around a SQL database. That makes for a very low barrier for integrators wanting to get data out - it's just a SQL query away. The ZODB is conceptually harder. You can't get at any and every little piece of data from whereever you might be in the code. Core content fields are queried from the catalog. You may or may not want to do the same with custom fields, dependent on how widespread they are on your site and how expensive getting them from objects directly might be.
+
+More database tips:
+- Use AdvancedQuery for more sophisticated query logic e.g. I've used it to find content that provided *this* marker interface but not *that* marker interface.
+- Check portal_purgepolicy. By default Plone keeps every version of content. Is that right for your site?
+- Be careful, but .zexp files can be really useful e.g. when your client has entered data they want to keep into a throwaway database.
+- Some CMSes will tolerate you installing, trying, then uninstalling products. You're asking for trouble, and Plone will let you know it. Only install on production if you're sure you want the product.
+- Remember the direction rule: code goes from dev to production; data goes the opposite way. If you're copying dev databases to production you're doing it wrong.
+- A useful habit to pick up is using a setuphandler for default and/or test content. See transmogrify.dexterity too.
+- If you need to store relational data, it's ok to break out into a relational database. collective.table is an upcoming product that will make adding small sets of relational data very easy.
+
+User-driven queries. When I first came to Plone from Drupal I thought Collections were a lot less powerful than Drupal Views. And they are. But I realised that's because Collections are a tool for content editors, whereas Drupal Views are for developers. Views are a UI for building very complex queries, which aligns with Drupal's philosophy of allowing integrators to build a custom site without writing code. I would like to see Collections gain a bit more Views-like power (e.g. sort order determined by multiple fields); hopefully that'll come after the new, much improved Collections UI in Plone 4.2.
+
+After being brutal about Drupal being a SQL wrapper, it's time to be kind: the Taxonomy module is really, really good. Taxonomy is big in Drupal. It's one of the first features you come across. It's part of core and lots of modules use it as the base of their functionality. Taxonomy lets you - through the web - define controlled, flat or multi-level vocabularies and apply them to multiple content types. It's used for categorisation, but also for flagging special content e.g. a node may have the 'members only' term applied from the 'access level' vocabulary; this controls access via the 'Taxonomy Access Control' module (note this example also illustrates the crazy malleability of Drupal!).
+
+Plone's equivalent is twofold: firstly, marking special content. This is absolutely one of my favourite things about Plone. Marker interfaces plus the Zope Component Architecture make all your client's niggly little special cases easy to write without compromising your nice, clean code. Just register a more specific adapter (probably a view or viewlet for display special cases) for your marker interface. They're easy to lookup in the catalog too - search with the object_provides key. Example of special case awesomeness: you can register a local site manager for a subtree of your site; adapters kick in only in that subtree.
+
+The taxonomy-for-categorisation story is not so awesome. By default we have the thankfully-renamed-from-Categories Tags. The Event content type proxies this field for its event type field, which means any event type you add becomes part of the global tag bucket! The best add-on I've found is ATVocabularyManager, but that puts vocabularies into content space where they're affected by global roles e.g. a content editor can mess with the terms. Would love to hear if people have successfully used Products.Relations or lovely.tag or similar. Nowadays I am using plone.app.registry.
+
+OK, back to Plone calling the shots: workflow is excellent. If you are not comfortable with permissions, roles, users/groups and workflow, drop everything else and read up. Martin Aspeli's ""DCWorkflow's Hidden Gems"" article is a real eye opener, revealing how workflow can solve many problem types. Get comfortable with the Sharing tab - understand how to control who has roles in a given context and what those roles mean. Tweaking permissions in context in the ZMI is usually bad, but there's an exception: granting an add permission for some content type (often your own) in a particular folder is a neat solution to the only-addable-here problem.
+
+An example of how solving a problem the Plone way can take a little lateral thinking: Drupal has a 'promoted to homepage' flag for every node. I needed the same. First thought was archetypes.schemaextender for a custom checkbox, just like Drupal. I would need to add a custom catalog index. But after digesting Martin's article I realised 'promoted' was a state of the content, and that I could use workflow. Content could go from 'published' to 'promoted'. This was way easier! The catalog index (and Collection field) already existed. Plus I would get a record of the transition. And I was automatically able to use features like content rules to setup automatic transitions. A Eureka moment! Think about how to solve your problems in terms of Plone features.
+
+A word on coding: when writing Drupal code you rarely look at the source of core. Instead you write hooks at the access points you've been granted. With Plone, the whole CMS is written (atop Zope) with the techniques you'll use for your custom code. This is great because there's a whole slew of code in your buildout cache you can directly learn from. Find a high level one like plone.app.portlets and figure out how it works.
+
+Some miscellaneous tips and tricks:
+- write your own helper views, just like those in plone.app.layout.globals. Add methods that describe your site-specific context e.g. are we in the part of the site that needs a custom header graphic? You can look these up from other views, including in templates. Especially useful for TAL condition one-liners e.g. in resource registry conditions.
+- Find and read Kees Hink's blog post on how expiration/publication dates work. It's concise but thorough!
+- If you use content for structure, but want individual items (e.g. an image that's rendered in a portlet) hidden from search results, set its expiration date to some past date.
+- It's easy to conditionally load JavaScript in Plone using conditions in resource registries. You can break up your page-specific JavaScript into separate files to manage the complexity. Don't have to load all the JavaScript for every page, like you might be used to from a CMS like Drupal.
+- Plone is opinionated. You will save many a headache if the site requirements are written in Plone terms. For example, I lost count of the number of times I had to explain that 'a piece of content can go through multiple workflows' translated to 'a piece of content can go through multiple workflow *states*'. Should've fixed this before we started!
+
+In a nutshell: it's like learning a foreign language. If you try to speak French by swapping each word in an English idiom, ce n'est not going to travail. You must embrace the culture shift. Vive la différence!
+
+The future: the great news is that all this gets easier with every release. The cruft is disappearing allowing the really useful, powerful Plone features to shine. The new stuff like the 3Ds of Dexterity, Diazo and Deco - oh and don't forget grok - is designed to make integrators' lives simpler.
+",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",danjacka@gmail.com,Yes
+7/18/2011 4:04:55,Yiorgis Gozadinos,"Yiorgis (born in Athens, Greece in 1974) started his professional software developer career after being bored to death by academia where he worked for a few years in the area of computational plasma physics. He became a full-time python/plone developer in 2005 and never looked back. He has given a number of talks to international conferences on a variety of subjects ranging from plasma physics to the political implications of software patents. He is currently a member of the Plone Framework Team and works for Jarn AS in Norway where he lives with his wife and two daughters.",Multiplayer Plone: Real-time collaborative writing with Plone through Jabber,"Recently, an exciting new addition to Plone add-on citizens has been published, allowing users to work together in real time on editing content simultaneously, similarly to how Google-docs works. The technology behind it will be introduced and demystified while emphasis will be given on getting you started and using it for your sites. Readily available features covering collaborative editing, messaging and micro-blogging will be demonstrated with real-world examples. Finally, additional features that can be readily developed, leveraging the existing stack, will be explored.","A demonstration of the product capabilities will be given, focusing on intranet use-cases. In particular collaborative editing, messaging and micro-blogging will be covered.
+The Jabber/XMPP protocols used will be introduced, focusing on  how they get glued with Plone to provide real-time capabilties.
+Setting up a new or existing site to use the packages, configuring a jabber server and using the stack in a production environment will be demonstrated with practical examples.
+The potential other real-time features powered by XMPP will be investigated, for example we will show how you could subscribe to Plone content and receive real time push notifications on your mobile device when it is modified.",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",ggozad@jarn.com,Yes
+7/19/2011 8:10:26,Dylan Jay,"Dylan is co-founder of PretaWeb, Plone support and solution company based in Sydney, Australia focusing mainly on Government and Enterprise. PretaWeb has been instrumental in the NSW adoption of Plone for it's all of government shared web platform. Dylan built tools for Plone such as collective.hostout, mr.migrator and funnelweb. Dylan works on promoting Plone and python in Australia with talks at CeBIT, PyCon-AU, KiwiPyCon, Australia Computer Sociaty and also runs Sydney Python.
+ 
+",Tsunami Proof Plone,"Tales of building high availability ""web scale"" Plone platform for an Emergency Services organisation in Australia. Covers what it takes to make Plone geo-redundant and realisticly load tested in order to survive the slashdot effect, earthquakes, floods, storms and tsunamis. ","Will cover some of the requirements the client had such as 99.99% reliability, elastic computing, multisite and how we worked through each of those issues to achieve the final solution. Geo-redundant relstorage, code replication, CDN's will be covered. Special attention will be paid to creating realistic load tests to determine the performance profile of the system under load.",30 minutes,"I'm not sure. It could go either way depending on how much time I actually spend prepping., Particularly good for people working in education and/or government, This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",dylan@pretaweb.com,Yes
+7/19/2011 11:30:19,Chrissy Wainwright,"Six Feet Up's Senior Template Developer Chrissy Wainwright joined the company in January 2008. She has implemented Plone themes for dozens of sites, including indianahistory.org, uvahealth.com, and itsoc.org.  In addition to being a Plone Core contributor, she has also done a bit of develpment on the KARL project.
+
+Chrissy graduated from Western Illinois University in 2004 with a degree in Instructional Technology and Telecommunications, and has worked with websites ever since. Chrissy provides Plone theming training and has given various theming talks at Plone Symposium East the past few years.",Making CSS and Firebug Your New Friends,"A basic introduction to CSS, and how you can use Firebug to help you with your styles.","Will cover the basics of CSS for anyone unfamiliar with it. This includes selectors, syntax and specificity. Will outline features that are available in CSS3, and explain what styles work in what browsers.
+
+Then on to how to use Firebug, the awesome debugging add-on for Firefox. Will cover how to find the class or id needed for your CSS, how to see what styles are applied to an element, and how to adjust the styles within the browser.
+
+All examples will be done in Plone, and there will be some Plone-specific tips. CSS and Firebug tactics learned can be used in any website.",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Perfect for the related technologies track. I will talk about Plone in a secondary manner.",chrissy@sixfeetup.com,Yes
+7/19/2011 11:53:47,Rob Porter,"Rob Porter from WebLion is the author of several add-on packages for Plone including CSSManager, EasyAsPiIE, and Reaponsive Theme. He has spoken about theming at Plone Conferences, Symposiums and Penn States web conference.
+
+",Making Plone Mobile using Responsive Web Design,"Users experience your website from many different viewpoints and using many different technologies -- large high-resolution monitors, iPads, iPhones, Androids, Blackberries, older laptops and handhelds; the list goes on. And then we have users who make adjustments such as dramatically narrowing their browser windows to accommodate lots open windows in their work space... We can design for an optimal viewing experience by using standards-based technologies that are more flexible and adaptive to the media that renders them. Using fluid grids, media queries, and flexible images, you can create a far more responsive web design -- no matter what the technology or user preference.","I. Why is mobile design needed?
+II. What makes responsive design?
+III. Why not make a app for the android or iPhone?
+IV. Examples of responsive webdesign
+V. How to write code for responsive webdesign in Plone?
+",30 minutes,"Everyone can watch this talk, drunk or otherwise., Decision makers will go gaga for this one. , Particularly good for people working in education and/or government",robzonenet@gmail.com,Yes
+7/19/2011 12:38:53,Denys Mishunov,"Denys is the long-time Plone core contributor that worked with Plone since 2004, is the author of some front-end oriented add-ons for Plone, been a technical reviewer of some Plone books like ""Plone 3 Theming"" and ""Plone 3 for Education"". Member of the Plone UI team, that is responsible for UI solutions in the Plone core. Denys is the author and implementer of Plone Improvement Proposal that switches Plone to HTML5 specification.
+
+After working with some Plone companies worldwide as a freelancer, Denys works for Jarn AS in Norway since 2008.",Living on the edge. HTML5 in Plone.,"Even though, the HTML5 specification is the work-in-progress, de-facto, HTML5 and CSS3 are the most exciting news in web standards in over a decade, and serious browser support is nearly at hand. HTML5 becomes more and more popular due to it's meaningful semantics, excellent backwards-compatibility with the previous versions of HTML and simplicity. Learn what is so good about HTML5, what is the state of it's implementaion in Plone and, what opportunities HTML5 and related technologies give you when building solid Plone web sites and Plone add-ons.","* Introduction
+    * Why HTML5 is the way to go.
+    * Browser support. (Mentioning of Modernizr, being part of Plone 4.2 and up, so this should be very fast).
+* HTML5 in Plone
+    * Current state of HTML5 integration in Plone.
+    * Where Plone could benefit the most from HTML5.
+        * Review of the most important bits of HTML5 forms and how they should be integrated into the widgets and fields we are having in Plone.
+        * Review of some Javascript APIs and their possible applications in Plone (offline storage, geolocation, messaging, web sockets etc.).
+    * Where to go from here.
+* Useful resources for learning more about HTML5.",30 minutes,"Plone core developers, add-ons developers, front-end developers",denys.mishunov@gmail.com,Yes
+7/19/2011 13:16:28,Denys Mishunov,"There is the bio in ""Living on the Edge"" talk's proposal. Didn't copy it over to here :)",Developing for browser capabilities with Modernizr,"Since version 4.2 Plone ships with Modernizr.js—""an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites."" Modernizr provides clean, extendible API that you can use for detecting certain HTML5/CSS3 features and properties of an exact browser and cater in accordance to the browser's capabilities. Learn how to progressively enhance or gracefully degrade your sites and web applications with Modernizr.","* Introduction to Modernizr
+    * Why yet another JS library in Plone?
+    * What does it do?
+* How to use Modernizr.
+    * Styling for browser's capabilities using feature-detection.
+    * Scripting (JS) for browser's capabilities.
+    * Extend Modernizr's API with new detections.
+    * Combine Modernizr with HTML5/CSS3 polyfils.
+* Modernizr in Plone.
+    * Existing examples of usage.",30 minutes,Perfect for the related technologies track. I will talk about Plone in a secondary manner.,denys.mishunov@gmail.com,Yes
+7/20/2011 4:38:45,Sjoerd van Elferen,Programmer and organiser of the Living Statues sprint at Four Digits.,How to organise a Plone sprint,"Organising sprints. We all like going to them, we all like meeting up with people, exchanging knowledge and having fun. Plone depends on them for development. But what does it take to organise one? Thats the question I want to answer with this talk.","I want to go into the details of organising a Plone sprint. Help people organise sprint, what's needed, what's easy and help on the hard parts. 
+General outline:
+- What do you need? What's the bare minimum you need?
+- What are extra's
+- How do you organise it
+- What do people expect
+- What should you expect
+- Why you should organise sprints
+- Where do you learn about sprints
+
+I want to go over basics, organising a small sprint with some people to advanced planning and bigger sprints.
+Going into things like don't over organise it and don't plan any detail are of course included.",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",sjoerd@fourdigits.nl,Yes
+7/21/2011 2:56:16,Nejc Zupan,"Nejc has been working with Plone since 2006. Since that time he has lectured at several Plone workshops, attended (and co-organized) Plone sprints and spoke at conferences. Nejc is a Plone Core contributor since 2010 and was nominated for the 2010 Help Channel Superstar. For the past 4 years, he's been running a Plone consultancy firm in Slovenia with customers in many European countries and the States.",plone.article revisited -> raptus.article,"Our beloved Plone Article has been with us for many years. Lots of non-techy Plone users grew in love with it because it enabled them to quickly and simply add content with media to Plone and apply a standardized layout to it. 
+
+However, being an old product it lacks support for Plone 4 and there is no mainstream replacement for it. Look no further than Raptus Article. Raptus Article has a very similar featureset to Plone Article, but it uses modern techiques to apply apply media-supported layouts to content. It's the perfect replacement for the outdated Plone Article.",TODO,I'm not sure - squeeze me in where it makes sense,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. , people stuck with Plone 2.5 and 3 because of cliens requiring Plone Article",nejc.zupan@gmail.com,Yes
+7/21/2011 7:26:27,Guido Stevens,"Guido Stevens MBA combines an integral business perspective, with in-depth technical expertise. He is passionate about innovation, learning, networking and open source technology. He has founded several several web technology companies since 1996 and has published academic research on the Plone eco-system. 
+
+Guido's current focus is on enhancing our collective intelligence by improving knowledge flows in networked organizations. He has a knack for explaining complex stuff in ways that reveal beautiful patterns and hopes to share some of that with you in San Francisco. ",Cross-site search with Solr and Plone - how to make 'external' content searchable from Plone with Solr,"Solr, a powerful enterprise search platform, is more than just a ZCatalog replacement. This talk shows how you can use Solr to provide a unified search experience across multiple web sites, both Plone and non-Plone.","This talk presents a detailed case-study of a real-world deployment where the intent to provide cross-site search using Solr was a major selling point in choosing Plone.
+
+The RIPE NCC runs a very high-profile, high-traffic Plone site at www.ripe.net and also runs a separately engineered labs.ripe.net Plone site, different version, on a different cluster. Additionally, the RIPE NCC runs dozens of mailing list web archives, not to mention various specialized web platforms of all kinds.
+
+Solr is used as an integration point to enable cross-site search across both of the Plone sites and all of the Mailman archives.
+
+The talk will present:
+- context in the form of business requirements and background considerations
+- design perspective on the user experience
+- systems deployment architecture overview
+- software architecture for the Solr indexing pipeline
+- integration into Plone via collective.solr and customizations
+- code flow, interfaces and adapters
+- using a microformat to make HTML parsing easier and more robust
+- how to handle custom indexes
+- code examples and gotchas
+- resulting user interface screenshot examples
+- ...
+
+While that may sound like a recipe for a geeky nuts-and-bolts session, my focus will be on the overall pattern of getting information out of various sources, via Solr, into Plone in a way that Actually Works (TM) without losing your sanity. And, of course, how this enriches the search experience and why this is A Good Thing (TM).",I'm not sure - squeeze me in where it makes sense,"Perfect for the related technologies track. I will talk about Plone in a secondary manner., This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",guido.stevens@cosent.nl,No
+7/21/2011 7:41:35,Guido Stevens,"Guido Stevens MBA combines an integral business perspective, with in-depth technical expertise. He is passionate about innovation, learning, networking and open source technology. He has founded several several web technology companies since 1996 and has published academic research on the Plone eco-system. 
+
+Guido's current focus is on enhancing our collective intelligence by improving knowledge flows in networked organizations. He has a knack for explaining complex stuff in ways that reveal beautiful patterns and hopes to share some of that with you in San Francisco.",microblogging in Plone with collective.kwetter,"Microblogging and activity streams are core features in any social networking environment, yet sorely missing in Plone. Collective.kwetter integrates a Zeromq-based messaging platform, designed and coded to provide Twitter-like microblogging capabilities inside of Plone","Plone's social features are not quite up-to-speed. The Plone technology architecture does not easily accomodate microblogging: many insertions of many small objects, and per-user dynamic real-time views do not really fit the CMS publishing paradigm.
+
+Enter Kwetter: a Zeromq-based microblogging backend specifically engineered to
+power microblogging in Plone. Zeromq is a leading messaging framework which is
+a natural fit for the message streams generated by microblogging.
+
+The talk will place the desirability of microblogging features in a wider context.
+Mapping a knowledge-theoretical model of organisational learning onto web
+technologies highlights the importance of microblogging as the ""missing link""
+in Plone as an Enterprise 2.0 platform.
+
+Collective.kwetter integrates the Kwetter backend capabilities into Plone.
+The talk will:
+- show the Kwetter/collective.kwetter architecture and message flows
+- discuss the JSON protocol used 
+- demonstrate a live prototype
+- show how to buildout a development/evaluation stack
+- provide pointers to the github codebase
+- present a future roadmap",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. , Perfect for the related technologies track. I will talk about Plone in a secondary manner.",guido.stevens@cosent.nl,No
+7/21/2011 9:44:16,Lennart Regebro,"At work I can make you an awesome website and solve your Python and Plone problems.
+
+In the evening I can tell you why copyright is bad and freedom is good; why the world is becoming a better place; what whiskey to drink and what music to listen to.
+",Welcome to my buildout,"Lennart Regebro does a lot of subcontracting for various Plone companies, and has seen a lot of buildouts. In this talk he walks through a buildout configuration that takes the best bits, stolen from companies like Jarn, Jazkarta and SixFeetUp.","* Basic structure (5m)
+* Products that everyone wants (1m)
+* Development vs Staging vs Production (5m)
+* System libraries or custom installs (3m)
+* Developer utilities (1m)
+* Services (5m)
+* Production necessities (5m)
+",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",regebro@gmail.com,Yes
+7/21/2011 13:32:36,Laurence Rowe,Laurence is a core Plone contributor and author of Diazo.,Diazo theming tutorial,"Diazo is the new Plone theming technology that lets you quickly and easily build a theme for your site from a static webpage and a simple rules file. This is an introductory level tutorial covering the key, basic features.",With step by step examples I explain how to make a basic Plone theme with Diazo and package it up as a zip file.,45 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",laurence@lrowe.co.uk,Yes
+7/21/2011 13:32:43,Laurence Rowe,Laurence is a core Plone contributor and author of Diazo.,Diazo tips and tricks,Diazo is the new Plone theming technology that lets you to quickly and easily build a theme for your site from a static webpage and a simple rules file. This talk is about sharing tips and tricks from real projects and covers some of the more advanced features of Diazo.,A basic understanding of Diazo is assumed along with common Plone development practices such as creating a package and writing a view.,30 minutes,This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.,laurence@lrowe.co.uk,Yes
+7/21/2011 13:39:19,Timo Stollenwerk,"Timo Stollenwerk is a Plone core developer and works with Plone since 2004. He studied computer science at Bonn University and developed several add-on products for Plone. He wrote the new discussion system for Plone 4.1 during his Google Summer of Code 2009 in Barcelona, Spain.",plone.app.discussion - an extensible and flexible commenting framework for Plone,"plone.app.discussion is an extensible and flexible commenting framework for Plone. Out of the box, it provides a state-of-the-art commenting system and is well integrated into Plone itself. It is a core component since Plone 4.1, but also available as add-on product for Plone 3 and 4.","The talk will give an overview of the out-of-the-box functionality and design principles of plone.app.discussion. Furthermore it will show how plone.app.discussion provides functionalities such as comment moderation workflows and batch editing of comments, email notifications, catalog integration and comment listings.
+
+I will show how integrators can extend plone.app.discussion with existing add on products and provide hands-on examples of how to extend the commenting form, and how to customize comment moderation workflows and notifications.
+
+In addition I would like to give the audience an impression how I spend my Google Summer of Code in Barcelona working on plone.app.discussion and how this helped me to become more involved into the Plone community and a better developer.",I'm not sure - squeeze me in where it makes sense,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",contact@timostollenwerk.net,No
+7/21/2011 13:59:38,Philipp von Weitershausen,"If you ever enjoyed some of the Zope Toolkit APIs, Grok, or his book, philikon will have you know that he'd like to apologize profoundly for them. To repent such sins, he left the Zope and Python community and the software world altogether for two years to do particle physics research. Failing to produce any fatal black holes that would destroy the world once and for all, he instead joined Mozilla a year ago to help advance the open web. He writes JavaScript and C++ for a living and hasn't lost the will to live yet.",Beyond anglebrackets,"Browser technology is replacing conventional toolkits left and right. JavaScript has been dubbed the ""x86 assembly of the web"". Media providers are swapping out Flash for HTML5 technology. This talk will take a look at what browsers are capable of now, the language and technology ecosystem that is flourishing on top of the browser stack, and what this means for web applications.","(Unsure yet, need to ponder exact outline. Please ping me if you need details.)",30 minutes,"Everyone can watch this talk, drunk or otherwise., Perfect for the related technologies track. I will talk about Plone in a secondary manner.",philikon@mozilla.com,Yes
+7/21/2011 15:38:18,Geir Bækholt,"Plone contributor since the early days of the project. I have contributed user interface design, CSS, javascripts, bug fixes, core components in Plone itself and add-on-products. 
+Geir's day-job is as managing director of Jarn AS — A Norwegian, internationally oriented Plone consultancy and development company. Jarn is deeply involved in the development and evangelism around Plone. 
+Geir also serves on the Plone Foundation Board. 
+","How we built a cutting edge government website on a shoestring budget using existing tools from Google and Plone, a few lines of code and some glue.","Case study of Karmøy (Norway) local government website project, where Jarn reused a wide variety of tools to build an automated system for merging content from several sources.  ",(on its way. In a rush to catch a flight here. will send asap) ,30 minutes,"Everyone can watch this talk, drunk or otherwise.",baekholt@jarn.com,Yes
+7/21/2011 15:54:41,Tom Lazar,"Meanwhile somewhat of a veteran, for this talk in particular I have been using git exclusively and extensively for the past two years, both as a developer, as well as project manager, plus I'm the author of gitify, a tool for integrating (legacy) svn into git workflows.",Gittin' it on!,"A brief guide of proven techniques and examples of how to use git and how you and your team can benefit from taking the plunge (and how it can help you to become a better developer, too!)","Giving a brief introduction to what git is and how distributed version control differs from svn, I will focus on showing workflows, various hosting options and sharing general tips and tricks that have proven to be useful over the past two years that I have been working with git.
+
+The idea is to give a condensed version of what has worked really well for us, so you and your team can get started and use git productively from day one without having to experience its infamously Z-shaped learning curve. Yes, git can be complex and bewildering sometimes, but just because we have banged our head against it a couple of times already, doesn't mean that you have to, too!
+
+If you're already convinced about wanting to start using git, this talk should leave you with everything you need to get started.
+
+If you're still unsure, it will leave you with a VERY clear picture of what you're missing out on!
+
+If you're already using git, come, too and heckle me, I'd like to walk away with something new from this talk, too :-)",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Perfect for the related technologies track. I will talk about Plone in a secondary manner.",tom@tomster.org,Yes
+7/21/2011 16:01:48,Steve McMahon,"Steve has taught several courses on using JavaScript in Plone. He's worked on several client-side PLIPs and was the original author of the ""Client-Side Functionality & JavaScript"" section of the Plone Developer's Manual.","JavaScript in Plone: What's Available, How to Use It","Plone comes bundled with a rich environment for adding dynamic functionality to your web pages. This talk will work from the simplest tricks that you may use without writing any new JavaScript up to the delivery, development and testing environments.","JS-Free Tricks; Just Add CSS
+Adding JavaScript; How to Get it to the Browser
+JQuery and Unobtrusive JavaScript
+Using the Overlay Manager, AJAX and More
+Accordions, Tabs and Rich Widgets ",45 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",steve@dcn.org,Yes
+7/22/2011 0:40:16,Adam Terrey,"Adam is a software engineer at PretaWeb based in Sydney Australia. He has given talks before Sydney Python Users Group and the PyCon-AU. Since joining PretaWeb he has been involved in many sites, including the high availability VicSES site.",Clone to Plone: Tools for painless site conversions,"Site conversions are a pain. Clients expect sites that look and act exactly like their old site, no matter how complicated the theme or large the site. Normally they don't expect to pay a lot for it either. This talk take you though the tools you need to convert a site in a day*, regardless of site size or theme complexity. Covers mr.migrator, collective.transmogrifier, funnelweb and diazo.
+
+* - normal rules of treating claims in a conference abstract as hyperbole apply","Will step though an example of a conversion of a site from its static no editable starting point. 
+Will cover setting up mr.migrator with funnelweb both inside plone and as a commandline tool. Creating some rules to extract the content from the old site.
+Conversion will take place live.
+Explanation will be given how you can customise this process for different sites.
+Then will cover the basics of using diazo with plone.app.theming to take an existing sites html etc and turn it into a plone theme.
+",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",adam.terrey@pretaweb.com,No
+7/22/2011 8:49:14,Kim Paulissen (spereverde),"As a software developer for the K.U.Leuven university web environment, I’ve been working with Plone since 2007. Since the beginning of our project, our team has setup Plone as the default web content management system for now almost the entire university. My task in this project was to customize and create plone packages to make Plone fit with our relatively big setup (3 different setups including around 30 own packages, with over 50 site administrators and hundreds of editors), with hierarchical rights delegation and branding requirements for a very diverse audience. We've done many upgrades over the past years, the upgrade to Plone 4.1 was one of my main responsibilities in the last six months.","Upgrading to Plone 4.1 - Cutting edge, bleeding edge?",A case study of how our university upgraded to Plone 4.1 with all the pros and cons of trying to be on the cutting edge...,"We use Plone as a service for the entire university K.U.Leuven, managing dozens of Plone websites over several clusters, for users ranging from advanced web developer to novices who don’t really know what a browser is.
+We did several big upgrades before and have some experience in customizing our own and plone packages, so we decided to take the plunge to migrate to Plone4.1. We wanted to benefit from the latest features it offered, like dexterity, plone.app.caching, blobstorage, improved speed, improved visual editing,...
+We did the full migration to Plone 4.1, including user testing periods, in about 6 months. This talk will give an overview of what was easy and what not, what bugs we found or fixed, either in Plone itself or to make things work for our specific setup and what the benefits were...",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Particularly good for people working in education and/or government, Integrators",kim.paulissen@icts.kuleuven.be,No
+7/22/2011 8:56:31,Kim Paulissen (spereverde),"As a software developer for the K.U.Leuven university web environment, I’ve been working with Plone since 2007. Since the beginning of our project, our team has setup Plone as the default web content management system for now almost the entire university. My task in this project was to customize and create plone packages to make Plone fit with our setup and branding requirements, with a special focus on layout, visual editor customizations and user support. 
+Our university has 3 different setups including around 30 own packages, with over 50 site administrators and hundreds of editors. I also gave the training sessions the first year about our site setup and through the web editing and still work closely with the people giving training now. ",Visual editor madness,"A story about testing different visual editors in Plone 4, what feedback we got from our users, what choices we made in the end and how easy it can be to add customizations,...","We use Plone as a service for the entire university K.U.Leuven, managing dozens of Plone websites over several clusters, for users ranging from advanced web developer to novices who don’t really know what a browser is.
+Our setup has pretty rigid branding requirements and to make this setup easy to use for such a diverse audience, we had to make sure the visual editor is robust enough, working perfectly in all browsers and easily customizable.
+So we tested Products.TinyMCE, collective.ckeditor and Products.FCKeditor for browser compatibility, basic and more advanced functionality, plone-integration, customizability for our own setup,...
+An overview of the results and the reasons for the choice we made in the end will be given in the talk, combined with an overview of ‘bugs’ found by ourselves and our test users.
+Some examples of the customizations we did and how we did them will also be explained.
+This talk is also a plea to the community to find more javascript developers to give the visual editor integration packages a little more love, because they still need it at the time of writing...",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Integrators",kim.paulissen@icts.kuleuven.be,No
+7/22/2011 9:04:36,T. Kim Nguyen and Nathan Van Gheem,"I am the Plone pusher/proselytizer at University of Wisconsin Oshkosh.  Since 2004, we have created and migrated over 250 web sites to Plone, and we have embarked on a major initiative to create a campus Intranet, also using Plone.",Killer Workflow Apps! Get Rich Quick With an Intranet!,"Tools and ideas to make your intranet viable and relevant, bringing users back to it day after day... without flogging!","- what information and resources users have said they need to get things done
+- forms, checklists / business process descriptions, workflows
+- collaboration tools
+- social networky features to drive them to the intranet 
+- tools to build these features: PloneFormGen, Dexterity, plone.app.workflowmanager, North* Workflow App Generator
+",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. , Particularly good for people working in education and/or government",nguyen@uwosh.edu,No
+7/22/2011 10:18:41,Matt Sital-Singh and Matt Hamilton,"This is a double whammy. You get the experience of not one, but TWO Matts. Many of you may know Matt Hamilton as Vice President of the Plone Foundation, Director of Netsight, organiser of the 2010 Plone Conference in Bristol, etc... but many of you may not know Matt Sital-Singh who works tirelessly away in actually making Damn Good Plone Stuff for our customers. Not necessarily packaging up wonderful products for you all (well he did create collective.visualimpact, but did you *really* want those marquee tags and pink flashing text?)... but making fantastic customisations of Plone for our clients.",Mistakes Made and Lessons Learnt Scaling Plone post-Launch,"This is a run down of the mistakes we made and the lessons we learnt trying to scale a big Plone site with un-anticipated traffic once the site had gone live and the budget all been spent. Find out what we did wrong, and how we fixed it.","So we launched a big (Plone 3) site and straight after launch had a massive increase in traffic to the site. Things fell over, fires started, people started shouting. Why did this happen? Some things were to do with Plone 3 (and better in Plone 4), some things were to do with our coding and development -- the client reduced their budget by 70% but still wanted all the features. Bad things happened. We will talk about what we did wrong, what we did right, what Plone is good at and what it is bad at. Some of this will be beginner stuff, some will be scary deep down-in-the-bowels of Zope stuff.",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",matth@netsight.co.uk,Yes
+7/22/2011 10:26:36,Geir Bækholt,"Geir has been a Plone contributor since the early days of the project, with a main focus on user-interface and interaction design, but has also done code and bugfixes. 
+Geir's day-job is as director of Jarn AS — A Norwegian, yet internationally oriented, Plone consultancy and development company. Jarn is deeply involved in the development and evangelism of Plone. Geir also serves on the Plone Foundation Board. 
+","The near term roadmap for Plone. New UI, new functionality. Plone 5. ","A look at the new user-interface (CMSUI) and other recent development for Plone that may or may not end up defining the next major version of our favorite CMS.
+","Exciting things have been happening with regards to the near term roadmap for Plone recently. We have built a radically improved user interface, the release schedule has been updated and a we see many user-facing features surfacing finally paying back the long investments in infrastructure. This talk will aim to inform, clarify and explain what is happening in the next versions of Plone.  
+",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. ",baekholt@jarn.com,Yes
+7/22/2011 10:29:14,Geir Bækholt,"Geir has been a Plone contributor since the early days of the project, with a main focus on user-interface and interaction design, but has also done code and bugfixes. 
+Geir's day-job is as director of Jarn AS — A Norwegian, yet internationally oriented, Plone consultancy and development company. Jarn is deeply involved in the development and evangelism of Plone. Geir also serves on the Plone Foundation Board. 
+",Plone worldwide ,"A look at the different Plone activities, like users groups, companies and events, around the world. Where is Plone happening?
+","There are a lot of Plone user-groups and similar around the world. This talk tries to give an overview of where this avctivity happens and who makes it happen. Pins on maps, graphs if possible, and lots of credit to lots of people. 
+
+The aim is mostly to do a feel-good talk on what people are using Plone for in different places, where the activity happens, what the user groups are up to, etc. 
+
+
+",30 minutes,"Everyone can watch this talk, drunk or otherwise.",baekholt@jarn.com,Yes
+7/22/2011 10:32:38,Geir Bækholt,"Geir has been a Plone contributor since the early days of the project, with a main focus on user-interface and interaction design, but has also done code and bugfixes. 
+Geir's day-job is as director of Jarn AS — A Norwegian, yet internationally oriented, Plone consultancy and development company. Jarn is deeply involved in the development and evangelism of Plone. Geir also serves on the Plone Foundation Board. 
+",Cutting edge government website on a shoestring budget,"How we built a cutting edge government website for local government on a small budget using existing tools from Google and Plone, a few lines of code and some glue.
+","Jarn recently built the local government website for Karmøy municipality — A rugged island on the west coast of Norway. Instead of building their portal integration according to their original specification ,Jarn built them something bigger and better by merging different existing technologies, including parts of the software behind Google docs' collaborative editing engine.
+
+
+Note: I have previously (a day or two  ago) submitted this talk with a not-quite complete description. Please delete my previous entry. ",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",baekholt@jarn.com,Yes
+7/22/2011 10:58:15,Matthew Wilkes,"Matthew Wilkes is a Python developer based in Bristol, UK.  He has been using Plone since 2004 and is a member of the Zope and Plone security response teams.  He has also served on the Plone 4 framework and documentation teams; he may not know what jQuery is, but his passion for elegant Python code mostly keeps him safe.  Mostly.",How Plone's security works,"This talk will cover the Zope and Plone features that make writing secure code easy, like AccessControl and plone.app.protect along with the common mistakes people make in their use.  Where possible examples from Plone security flaws will be included alongside information on how we handled their release.","The following is a proposed layout of my slide deck:
+
+|- Welcome
+|- Who am I
+|-+ AccessControl
+| |- Flowchart
+| |- Publishing
+| |- ClassSeurityInfo
+| |- Permission Lookup
+| |- Plone example
+| |- PAS plugins and role provision
+| `- Tip: Beware LDAP
+|
+|-+ plone.app.protect
+| |- CSRF overview
+| |- POST not enough (but do it!)
+| |- User specificity + gotcha 
+| |- Use in pt and z3c.form
+| `- Aside: testing
+|
+|-+ SQL^W Python injection
+| |- Background to problem
+| |- Pickles aren't safe
+| |- eval isn't safe
+| `- Idea: Sploit the audience?
+|
+|-+ How Plone hotfixes
+| |- The structure of a HotFix
+| |- Security by Obscurity in action
+| |- How you should patch your sites
+| |- Security team shoutout
+| `- Responsible disclosure shoutout
+|
+`- Thanks
+
+
+The demos would be modulo getting approval from interested parties in some more disclosure and I'd be seeking an external review of the slides first.  ",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",wilkes@jarn.com,Yes
+7/22/2011 11:46:20,Matthew Wilkes,"Matthew Wilkes is a Python developer based in Bristol, UK. He has been using Plone since 2004 and is a member of the Zope and Plone security response teams. He has also served on the Plone 4 framework and documentation teams; he may not know what jQuery is, but his passion for elegant Python code mostly
+keeps him safe. Mostly.
+",A generic way to set Plone sites up,"This talk aims to dispel some some of the myths about GenericSetup that have
+grown up around the Plone community. If you hate marker.txt and
+setuphandlers.py, don't care for XML configuration, or end up replicating the
+same setup code over and over this talk is for you.","The following is a proposed layout of my slide deck:
+
+|- Welcome
+|- Who am I
+|-+ GenericSetup
+| |- What is a profile
+| `+- What is a handler
+|  `- Parameters
+|
+|-+ Existing handlers
+| |- XML is a lesser evil
+| |- But handlers are inconsistent
+| |- There are no third party handlers!
+| `- setuphandlers considered harmful
+|
+|-+ How to write a handler
+| |- ZCML vs handlers.xml
+| |- What marker.txt really is
+| |- Reading parameters
+| |- file formats
+| |- export handlers
+| `- concrete example
+|
+|-+ Upgrade steps
+| |- Setuphandlers?
+| |- one profile per migration
+| |- migrations chain
+| |- null migrations
+| `- Use concrete example somehow
+|
+`- Thanks
+
+",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",wilkes@jarn.com,Yes
+7/22/2011 12:19:31,Matthew Wilkes,"Matthew Wilkes is a Python developer based in Bristol, UK. He has been using Plone since 2004 and is a member of the Zope and Plone security response teams. He has also served on the Plone 4 framework and documentation teams; he may not know what jQuery is, but his passion for elegant Python code mostly
+keeps him safe. Mostly.",Progressive enhancement using WSGI,"WSGI middlewares were designed to allow new features to be injected into
+downstream applications without any special handling code in the application
+itself, a use-case that isn't in much use currently. This tutorial will
+provide you with the skills to intercept requests and responses and modify
+them to improve other applications.
+","The following is a proposed layout of my slide deck:
+
+|- Welcome
+|- Who am I
+|-+ The WSGI standard
+| |- Applications (obvious)
+| |- Composites
+| |- Middlewares
+|
+|-+ What WSGI isn't
+| |- Decorators (repoze.tm2)
+| |- Global variables (repoze.who)
+| `- Try/Except (areciboware)
+|
+|-+ What it IS
+| |- Proxy vs Native
+| |- XML parsing
+| |- HTML Editing (diazo)
+| `- URL Rewriting (mr.monster)
+|
+|-+ Concrete (largest section)
+| |- Create middleware using wsgi_templates
+| |- Outbound: Parse reponse into an XML tree
+| |- Find forms with an is_human input
+| |- Add CAPTCHA
+| |- Store in globals
+| |- Inbound: Detect POST
+| |- Check for CAPTCHA match
+| |- Pass: checkbox ticked
+| |- Fail: checkbox unticked
+| `- Extra credit
+|  |- New middleware
+|  |- Find outbound forms
+|  |- Add is_human checkbox
+|  |- Detect inbound form
+|  `- If is_human not set return error message
+|
+`- Thanks
+
+
+I wouldn't mind more than 45 minutes if you wanted that, I love this subject and anything lte 90 minutes would be fine.
+",45 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Perfect for the related technologies track. I will talk about Plone in a secondary manner., This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",wilkes@jarn.com,Yes
+7/22/2011 12:43:34,Eric Steele,"Eric is the current Plone release manager, a developer for Penn State's WebLion group, and occasional freelance developer.",Plone Core Development: How it happens and how to get involved,"I'll cover the processes, people, and groups that make Plone happen and how to become a contributor.","There will be no code here, mainly an overview of the Plone community ecosystem, how the different teams interact, and how one gets started with helping out.",I'm not sure - squeeze me in where it makes sense,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",ems174@psu.edu,Yes
+7/22/2011 12:44:01,Ron Kirchgessner,"Ron has over 25 years experience in software development and project management. No stranger to new technologies, he has an extensive background in developing marketing tools for a global audience.
+
+His early career involved heavy lifting for R&D and consulting firms before he landed at Eli Lilly and Co. While at Lilly's Elanco division, he expanded their global marketing software offerings and contributed to the JMP scripting language. Later, he successfully drove a large-scale 50-country data migration for Lilly.
+
+He is a certified Project Management Professional (PMP) with a Bachelor of Arts in Computers from Indiana University and a Masters of Science in Project Management from ITT Technical Institute.",You just landed a multi-million dollar project: congrats! Now what?,"Successfully landing a large scale project means immediately having to deal with resource demands and processes you may not have dealt with in smaller projects.  This talk will provide an overview of what to expect, and how to survive.","How do you handle:
+- process requirements
+- relationship
+- documentation
+- resources
+- distributed teams
+- how to ensure follow-up work
+- business continuity",45 minutes,"Everyone can watch this talk, drunk or otherwise., Decision makers will go gaga for this one. , Perfect for the related technologies track. I will talk about Plone in a secondary manner.",ron@sixfeetup.com,No
+,Ron Kirchgessner
+7/22/2011 12:56:17,Sasha Vincic,"I am the silent Plone developer. Been around for long time, making great things few know about. Long experience with Web and ecommerce both on the business and developer side. More about me http://sasha.vincic.org/en/",Multilingual sites - caveats and tips,There is no right or wrong when it comes to managing multilingual sites. You have several usecases which you can solve in different ways. This talk will go through these usecases and what you should think about when choosing a solution. This talk has been presented 2010 and 2009.,There is no right or wrong when it comes to managing multilingual sites. You have several usecases which you can solve in different ways. This talk will go through these usecases and what you should think about when choosing a solution. This talk has been presented 2010 and 2009.,30 minutes,"Everyone can watch this talk, drunk or otherwise., Particularly good for people working in education and/or government",sasha.vincic@valentinewebsystems.se,Yes
+7/22/2011 13:14:47,Calvin Hendryx-Parker,"Calvin Hendryx-Parker is Chief Technology Officer for Six Feet Up, Calvin is responsible for researching cutting-edge advances that could become part of the company’s technology road map. He has over 13 years of experience in fields as diverse as systems engineering, data modeling and information architecture. Calvin is well-known in the Plone Community for being an excellent speaker who attends and presents at Plone and Python events year-round. He is also President of the Plone Foundation and is serving his second term on the board.  He is also renowned as being the go-to-guy for opinions on the latest and greatest gadgets and new technologies.",Potential Plone Clients: How to Seal the Deal,"What is the secret to turning a CMS prospect into a Plone client? As Content Management Systems have become mainstream, customers are more sophisticated in the questions they ask and initial contacts can include in-depth comparisons to competitors. Organizing your information and having a plan to pitch Plone is the key to successful client acquisition. In ""How to Seal the Deal"", Calvin will unveil the process he follows to win.","- Potential Plone Clients: How to Seal the Deal
+    - Calvin Hendryx-Parker
+    - Plone Conference 2011
+- Demo
+- We aren't all natural salesmen
+- What not to do
+    - Speak in Jargon
+    - Show Irrelevant Features
+    - Its not about you
+    - Badmouth other technologies
+          they may be using those technologies
+          it never makes you look good
+- What do do
+    - Listen
+    - Know who you are talking to
+    - Ask questions
+    - Be clear and concise
+    - Build a Relationship
+- Make an impression
+    - Establish credibility
+    - Trust
+    - Build a Relationship
+- How will this help them
+    - Time
+    - Money
+    - Quality
+- Make sure you are prepared
+    - Have everything installed and tested
+          It is hard to explain a stacktrace to a potential customer
+    - Have folder with demo content of many types
+        - Word Docs to copy paste from
+        - PDF Docs
+        - Multiple Images and Pictures
+        - Run everything local
+    - have the right adapter for you computer
+- Setup a story that people can relate to
+- Don't be afraid to recommend other technologies
+- Show off real world usage
+- Demo
+",I'm not sure - squeeze me in where it makes sense,"Everyone can watch this talk, drunk or otherwise., Decision makers will go gaga for this one. ",calvin@sixfeetup.com,Yes
+7/22/2011 13:07:16,Mikko Ohtamaa,"All around Python lover, Plone developer since 2004, Plone IRC superstar 2010, IRC addict. I love to make new technology to accessible more people.",The easy way,How to make Plone a success story by improving developing experience through better documentation and newcomer friendly community processes. What's the current situation and how we can make it better.,"No one live forever. Life sucks and it is too short to be spend banging your head against unsurmountable heaps of undocumented legacy code. By improving developer community experience and documentation we can make Plone a success story. 
+
+The talk will educate developers and senior Plone community members how to make tools and documentation accessible for not-so-senior members. Also, newcomers can learn what's the state of the art how one should approach Plone development and start sharing their newcome knowledge from the beginning.",I'm not sure - squeeze me in where it makes sense,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Perfect for the related technologies track. I will talk about Plone in a secondary manner.",mikko@mfabrik.com,Yes
+7/22/2011 13:33:37,Mark Corum,"In the last four and half decades, Mark Corum has
+hitchhiked to all 50 states and Canadian provinces,
+stood on every continent, published hundreds newspaper articles and columns,
+ghost-written several books, and is in the home stretch to publishing his first novel.
+
+He has worked as a
+tobacco picker,
+welder,
+journalist,
+newspaper columnist,
+backup guitar player,
+creative writing teacher,
+tv producer,
+advertising creative director,
+bar/theatre owner ,
+research scientist,
+political spinmeister,
+research chemist, IT consultant and marketer at DuPont,
+and
+staffer at the University of Virginia.",Here is the News,"News, announcements, press releases, blog posts, tweets ... these are timely content elements which keep websites alive and bring users back for a second visit.  A common misconception is that by simply installing a blog or newsroom product, you can turn your website into a news source and an information destination.  The truth is, the care and feeding of an ongoing stream of news - combined with social media - requires careful planning and coordination. A news and social media plan is something every website needs to have in place.  This is what we'll discuss in this talk.  (This is not a coding talk.)","Creating a news plan for your website
+How to draw in readers and get them to come back
+Getting your message out
+   -  Establishing the long arc
+   -  Technologies that compliment news
+   -  Key learnings in writing for the web
+   -  Incorporating news into your site architecture",45 minutes,"Everyone can watch this talk, drunk or otherwise., Decision makers will go gaga for this one. ",markcorum@gmail.com,Yes
+7/22/2011 13:47:09,Mark Corum,"In the last four and half decades, Mark Corum has
+hitchhiked to all 50 states and Canadian provinces,
+stood on every continent, published hundreds newspaper articles and columns,
+ghost-written several books, and is in the home stretch to publishing his first novel.
+
+He has worked as a
+tobacco picker,
+welder,
+journalist,
+newspaper columnist,
+backup guitar player,
+creative writing teacher,
+tv producer,
+advertising creative director,
+bar/theatre owner ,
+research scientist,
+political spinmeister,
+research chemist, IT consultant and marketer at DuPont,
+and
+staffer at the University of Virginia.",Marketing Your Plone Company on a Shoestring,"Plone offers great security, community, and a solid, mature development platform for websites - yet often falls below people's radar when they are looking for a content management system.  
+
+This talk describes some straightforward and inexpensive methods of promoting your Plone business to potential clients and the press to take advantage of these strengths.  We'll also discuss common issues people have in this area and use the Plone brand to your advantage.
+
+The target audience is anyone - but it may be particularly useful to those non-coders and those who interact directly with the product.  This will be an interactive session - so be prepared to be actively involved.","Setting Expectations
+Elevator Pitches
+Event Marketing
+User groups
+Taking Advantage of Plone.org
+Never Ignore ROI
+Schwag
+Reading List",45 minutes,"Everyone can watch this talk, drunk or otherwise.",markcorum@gmail.com,Yes
+7/22/2011 13:47:49,Mike Halm,"Mike Halm is the Director and Senior Strategist for the WebLion group. The group started modestly over five years ago with just one developer and has now grown to 10 full-time developers. In addition to this core group, there are over thirty partners with about 80 to 100 developers, integrators and web designers located across the Penn State system of 25 campuses in various colleges, department and administrative groups. Mike Halm was the principal catalyst for starting the WebLion group with his colleague Christian Vinten-Johansen. Mike has presented extensively on the role of standards and the use of open source at international venues over the past ten years. ","PloneEdu: New Opportunites, New Frontiers","The goal for PloneEdu (ploneedu.org) is to provide opportunities for collaboration, knowledge sharing, and support of Plone for all levels and types of educational uses. In May 2010, we launched our website to promote PloneEdu and over the last year we have made significant progress in developing the community.  We would like to share our success stories with the entire Plone community.
+
+In this session, you will be introduced to the PloneEdu effort, you will here about what we have accomplished over the past year, what we are planning for the next year and how you can participate in our activities. As part of the talk you will have an opportunity to share what you are are doing in the education sector and pitch your ideas for potential projects for which you think there is a need.
+","What is PloneEdu?
+How do I get involved?
+What has been accomplished over the past year?
+     Plone Symposium East 2011
+     Specific development projects
+     Interaction between institutions
+What is is being planned for next year?
+     Hosting Best Practice Guide
+     Buildout for Education
+     Streaming Plone user group
+     Other projects
+Using the PloneEdu site to promote your efforts
+     Adding your own content
+Upcoming Events
+    Plone Edu 2012
+    PloneEdu project days
+
+This presentation will be co-presented with: 
+Kim Nguyen from University of Wisconsin - Osh Kosh",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Particularly good for people working in education and/or government",mjh@psu.edu,Yes
+7/22/2011 13:48:57,Denys Mishunov,Should be in one of my previous submissions :),Alert! You are backwards incompatible.,"Imagine Plone, that doesn't care about backwards compatibility. You are free to choose whatever tool or technology you wish for achieving the goal—solid, predictable front-end. What would you change or improve? What would you leave?
+ATTENTION! The scenarios, mentioned in the talk are fictitious and reflect personal ideas and opinions. Any similarity to actual Plone's future is purely coincidental… but very desired :)","* Tools for front-end integration
+* Techniques to consider when developing for the front-end
+* Backwards compatibility and browsers",30 minutes,"Everyone can watch this talk, drunk or otherwise., This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",denys.mishunov@gmail.com,Yes
+7/22/2011 13:50:15,David Glick (davisagli),David Glick has been a Plone consultant at Groundwire and a Plone core developer since 2007. He spends his days grumbling about how Plone could be better and his nights making it so. David is also a maintainer of the Dexterity content type system.,Dexterity in the Wild: Technical case study of a complex Dexterity-based integration,"Groundwire is building a medium-scale business networking website for Net Impact, an international NGO which empowers individuals to use the power of business to create a more sustainable world. The site features a directory of some 40,000 members, a job board, and registration for Net Impact's annual conference.
+
+Net Impact's main database of members is in Salesforce.com, but Plone needs to have access to up-to-date member data in order to drive the member directory and allow members to log in. This talk will explain the design challenges that the project faced and how Plone and Dexterity made it possible to solve them.","Among topics that are likely to be covered:
+* Designing workflows to support multiple levels of site access
+* Creating content-based Plone user accounts using dexterity.membrane
+* The Dexterity behavior that syncs members from Salesforce daily (collective.salesforce.behavior)
+* How we extended Dexterity schemas to tag fields with custom metadata controlling how contacts are synced
+* Getting paid without using getpaid: how to roll your own checkout form
+",45 minutes,This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.,dglick@gmail.com,Yes
+7/22/2011 13:53:57,Tim Chang-Miller,"I work for the University of Washington’s Central Web Team as a Web Producer and am a proud 2-year XDV/Diazo “veteran.” We took our site’s complex, but beautiful, new design and successfully themed it using XDV/Diazo. Prior to working with XDV/Diazo,I had zero Plone/TAL theming experience, which means that I only know how to theme in XDV/Diazo and have invaluable experience to share with the Plone community.","A Beautifully Complex Diazo Experience: The ABCs, Ds and Es of constructing a complex Diazo theme","Looking to theme a site more complex than a simple three-column CSS layout? Excellent. Wanting to roll out two to three completely separate designs on a single Plone instance? Great! Dying to theme Plone’s backend? We weren’t either, until we did :)
+
+Come learn how we did it and the tips/tricks we used to get there.
+","This talk will cover three topics:
+
+1) Diazo theming workflow:
+– Setting up the rules.xml file to handle complex designs
+– Using Xincludes to tie together common elements across different designs
+– Content type theme switching (news items, pages, custom types, etc.)
+
+2) Theming the backend:
+– Why this is just as important for you as it is your client
+– Overcoming the Plone admin CSS
+– Simplifying the editing interface
+– Successfully incorporating customizations
+
+3) Tips and tricks:
+– Working with — instead of against — the XDV rules
+– XPath’s power
+– Setting context in your Xincludes without having access to the tag
+– Setting theme-wide XPath variables to control your CMS URLs
+– XPath commenting
+
+Special note: We are hoping to have one of our developers join in this talk to provide even more depth and perspective on what we've accomplished. The co-presenter, if we can swing it, will be Dane Odekirk. In addition to Tim's theming expertise, Dane brings a wealth of other programming skills to the table and has enabled us to do some amazing things with Plone that greatly enhance the site and user experience. 
+",45 minutes,"I'm not sure. It could go either way depending on how much time I actually spend prepping., This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",tcmiller@uw.edu,No
+7/22/2011 14:02:15,Eric Steele,"Eric is the current Plone release manager, a developer for Penn State's WebLion group, and occasional freelance developer.",Jenkins: How Plone Automates Everything,How Plone is using Jenkins CI to automate everything from testing to releases.,"Mostly an overview of how Plone uses and abuses Jenkins CI to maintain a testing infrastructure (unittests, static code analysis, selenium testing) and handle releases (packaging, deployment, installer creation). Also some discussion of what else we could be doing.
+
+This also gives me an excuse to light a fire under the new jenkins.plone.org team. ;)",I'm not sure - squeeze me in where it makes sense,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Perfect for the related technologies track. I will talk about Plone in a secondary manner.",ems174@psu.edu,Yes
+7/22/2011 14:03:09,Eric Steele,"Eric is the current Plone release manager, a developer for Penn State's WebLion group, and occasional freelance developer.",Forewards Incompatible: Why I hate your database,"Imagine if Plone didn't care about backwards compatibility. You are free to choose whatever tool or technology you wish for achieving the goal—solid, predictable front-end. What would you change or improve? What would you leave? This is a part of series of talks.","I'm going to try to keep this at a fairly high level, not too much actual code discussed – not everyone cares about PAS plugins, but they can see the advantages of something better.
+
+Denys and I are hoping to cover two sides of this, front-end and back-end.",45 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., I'm not sure. It could go either way depending on how much time I actually spend prepping.",ems174@psu.edu,Yes
+7/22/2011 14:11:49,David Glick (davisagli),David Glick has been a Plone consultant at Groundwire and a Plone core developer since 2007. He spends his days grumbling about how Plone could be better and his nights making it so. His job has given him an opportunity to make many mistakes while installing Plone add-ons for evaluation.,"Oops, where's my site?! How to install Plone add-ons and live to tell the tale","""Just add the egg to your buildout."" Sounds so easy, right? But so often, doing that without care leads to a Plone instance that won't start up.
+
+Trying a cool-sounding new Plone add-on should not have to be a terrifying experience. With a mix of practical advice and peeking behind the scenes at how things work, this overview will give you the skills you need to install add-ons with confidence. We'll walk through some examples of installing add-ons into a
+basic buildout, and see what happens.","* What does installation mean?
+  - the Python environment
+  - loading configuration
+  - activating persistent changes
+* Buildout basics
+  - What to change
+  - What to do next
+* Dependency management
+  - Different kinds of dependencies
+  - Version pinning to keep your buildout from breaking in the future
+  - What is good-py and when is it necessary
+* How to run the tests for an add-on
+* When things go wrong
+  - Common errors, what they mean, and how to recover
+  - How to make a backup and restore from it",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",dglick@gmail.com,Yes
+7/22/2011 14:18:52,Sean Upton,"Sean Upton has been working with Zope and Plone long enough to -- when deprived of enough sleep -- be nostalgic for the good-old-days when DTML, ZClasses, and Acquisition were on a path for world domination.  Sean works for the University of Utah Health Sciences Center building collaborative tools with Plone used by pediatric quality improvement projects in Utah and several other US states.  A Utah native, Sean spent nearly a decade in San Diego, CA leading software and operations teams at a large metropolitan newspaper building and using Zope2, Plone, Python, the Zope Component Architecture, and Django for online publishing, and cross-media content management.  Sean's recent Plone work is currently focused on complex forms, calendars, groupware, report-generation, and hybrid content/RDBMS applications.",I can has content?  Indexing human/content co-dependency.,"This presentation will demonstrate developer and end-user add-ons for managing named human-to-content relationships. 
+
+collective.subscribe is a library aimed at making it easy for developers to create applications indexing relationships between humans and content items.  Humans (site members, or anyone else with an email address or OpenID) can subscribe to content using named predicates such as ""like"", ""dislike"", ""follow"", ""invited"", ""confirmed attendance"" or any other arbitrary relationship.  Such relationships are indexed in a purpose-specific ""Subscription Catalog"" for use by applications needing to track them.  An example add-on demonstrating like/dislike buttons will be demonstrated along with collective.inviting, a calendar event invitations management add-on for Plone.  collective.subscribe supports any Python-based application that can use the ZODB and Zope Component Architecture, and is liberally licensed (MIT).
+
+** Currently, these packages are unreleased and under a different set of names (currently uu.subscribe and uu.inviting).  I intend to release these July 24, 2011 to PyPI and collective repository on GitHub.  Source is currently available in Bazaar branches on launchpad.net:
+
+  [1] https://code.launchpad.net/~seanupton/+junk/uu.subscribe
+  [2] https://code.launchpad.net/~seanupton/+junk/uu.inviting
+
+","
+0. Why this matters.
+    * Aside from relationships among people, the second core idea of social software is a named relationship between people and content.
+1. Human/content relationships
+    a. Examples.
+    b. Strategies
+2. Why purpose-specific indexes?
+    a. Kinds of things we store and query.
+    b. Why not zc.relation
+3. Goals
+    a. Example applications
+    b. What needs to be stored.
+    c. Limitations of scope.
+4. Developer requirements.
+    * Subscription catalog
+    * Subscriber ""signature"" tuples (namespace, id)
+    * Support non-member humans
+    * Support members
+    * System-agnostic content identification (UID or UUID)
+    * Resolving a content item (by UID)
+    * Resolving a subscriber (by signature)
+    * Indexing subscriber signatures to content per-relationship.
+    * Querying content by subscriber and relationship name.
+    * Querying subscribers by content and relationship name.
+    * Getting relationship metadata/annotation.
+5. Demonstration application 1.
+    * Simple prototype of a like/dislike viewlet for content.
+    * Goal: show how simple writing an add-on can be (the point is the code, not the function).
+6. More complete application demonstration:
+    * collective.inviting
+      * (note about difference of approach vs. other plugins like collective.eventinvite)
+7. Interfaces and components.
+    * Responsibility of collective.subscribe.
+    * Responsibilities of the applications/add-ons using collective.subscribe.
+8. Under the hood: index implementation and limitations.
+9. Caveats, roadmap, other uses.
+10. Q&A.
+",45 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. , Particularly good for people working in education and/or government",sdupton@gmail.com,Yes
+7/22/2011 14:22:01,Sally Kleinfeldt and Alec Mitchell,"Sally Kleinfeldt's interests and experience include data and content management, information retrieval, environmental conservation, scientific visualization, and GIS. She's used Python since 2000 and Plone since 2004, and has presented numerous talks at Plone conferences and symposia. She has a Ph.D. in biology and loves creating Plone applications that make scientists more productive. Before discovering Plone, she worked on search engines, and how to use them to mine data on content-rich sites.
+
+Alec Mitchell is a longtime Plone Developer and Framework Team member, and was the release manager for Plone 2.5.  He's been working with Zope and Python since 2002 and Plone since 2004.  Before Plone he had a brief career in Physics research, but the community was far less entertaining, or so he tells himself.  He is an independent consultant based in Los Angeles, California.", How To Get a Fabulous Website on a Modest Budget Using Plone,"Many organizations have big ideas about what they want their website to do,
+but a budget that common wisdom would judge too modest for those aspirations.
+The University of Minnesota Press had lots of great ideas for a cutting-edge,
+dynamic, data-driven site where users would get lost exploring their remarkable
+catalog of books. Their budget, however, was only enough to cover a modest 200
+hours of development. In this talk we describe how we were able to create
+the site that UMP dreamed of within their budget constraints by using
+Plone, plone.app.theming, and Plone add-ons such as eea.factednavigation. Visit
+the site at upress.umn.edu.","Process: Choosing what not to do (Sally)
+- The planning phase - turning a 42 page BRD into user stories
+- Iterative development, agile tools
+- Evolving priorities
+- The final push - back to tickets
+- Looking back - how we used our time
+
+Data: The role of FileMaker (Sally)
+- FileMaker - central to the UMP business process
+- Bringing selected FileMaker data into Plone
+- Augmenting FileMaker data in Plone
+  - Read-only attributes and writable attributes
+  - Tags
+- Import, QA, reimport, rinse and repeat
+
+Functionality: Exploring rich content (Alec)
+- Books, a mega content object
+- Making the most of many attributes
+- Disciplines, tags, and how to use them
+- eea.facetednavigation - the killer app for browse
+- Substituting eea.facetednavigation for Collections
+
+Theming: How we used plone.app.theming to lower development costs (Alec)
+- Bringing the designers into the process
+- Wireframes, and when to use Plone as a wireframe
+- Theme rules, what's easy, what's hard
+- Plone templates and CSS
+
+(Note: The technical details of using Transmogrifier for the FileMaker to
+Plone import process will be covered in another talk submitted by 
+Carlos de la Guardia)
+",45 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. , Particularly good for people working in education and/or government",sally@jazkarta.com,Yes
+7/22/2011 14:38:30,Sean Upton,"Sean Upton has been working with Zope and Plone long enough to -- when deprived of enough sleep -- be nostalgic for the good-old-days when DTML, ZClasses, and Acquisition were on a path for world domination.  Sean works for the University of Utah Health Sciences Center building collaborative tools with Plone used by pediatric quality improvement projects in Utah and several other US states.  A Utah native, Sean spent nearly a decade in San Diego, CA leading software and operations teams at a large metropolitan newspaper building and using Zope2, Plone, Python, the Zope Component Architecture, and Django for online publishing, and cross-media content management.  Sean's recent Plone work is currently focused on complex forms, calendars, groupware, report-generation, and hybrid content/RDBMS applications.","31 flavors of Buildout tips, tricks, traps","Our community has been using buildout with measured success (and occasional cursing) for almost half-a-decade.  This talk attempts to describe some lessons learned in building a deployment buildout with lots of inter-related parts.  I will aim to present my own observations and then encourage discussion, feedback, and questions to expose similar informal knowledge from other community members for wider consideration.  Topic covered include configuration, layouts, security, must-have recipes, and special attention to CMMI parts.","
+* The general lay of the land:
+    * My references is a complex set of buildouts with:
+        * Python
+        * OpenSSL, Bzip2, Readline, ncurses, etc.
+        * supervisor, memcahed, postgresql, RelStorage, HAProxy, varnish, etc.
+        * superlance/memmon, munin support, etc.
+        * All sorts of inter-dependencies.
+        * Database fixtures (for RelStorage and ORM).
+* You are using collective.buildout.python, right?
+    * However, if you absolutely must use the system Python...
+* Must-have recipes.
+    * Template recipes
+    * Command recipes
+    * Informational recipes
+        * e.g. gocept.env, collective.recipe.realpath.
+        * We need more of these?  (comparison to other system, e.g. Puppet on this front)
+* The CMMI ninja:
+  * Using shared-libraries across multiple buildouts.
+  * Stupid rpath tricks (you want shared libraries, right)?
+* Modular buildouts, breaking big things up into smaller units of work.
+* Dealing with part order -- observations and tricks.
+* Securing files created by buildout.
+    * Keeping credentials safe.
+* Pinning across package versions, mr.developer sources, and 
+* Patterns for testing, release, and deployment.
+* Working across development/deployment platforms: Mac, Linux
+* Common things that break -- and what to do.
+  * Version conflicts.
+  * Re-installing a broken part.
+* Looking ahead: buildout 1.5
+* Assessment: things for which buildout is weak/limited.
+  * When to punt to system packages (wild debate will engulf us all).
+  * 5 recipes (or extensions) that don't exist, but I would like to see...
+
+Audience: this assumes some, though not extensive knowledge of buildout. This is not a tutorial, but a survey of observations.",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., integrators, sysadmins, folks who use installers but might jump off into their own buildouts soon enough",sdupton@gmail.com,Yes
+7/22/2011 14:49:03,Cris Ewing,"With six years in the trenches doing Plone integration and development, Cris Ewing has seen a lot.  He fervently wishes that Transmogrifier had been around in 2006 when he was migrating 14 separate websites into a single Plone site for the Department of Radiology at the University of Washington.",Transmogrification: Beyond the Magic Box,"Transmogrifier is a fantastic tool for moving content from one website to another. Simple, flexible and powerful, it makes the difficult tasks of migration easy and the impossible possible. But there's more to migrating with transmogrifier than just learning the tool. The everyday task of managing content can lead to complex problems. You need a plan. In this talk, we'll look at a real-world example of the migration of a large, content-heavy website from Liferay to Plone. We'll talk about where the hidden traps were found, the tools we used to get past them, and the knowledge that would have helped us avoid them in the first place.","- Introduction
+- Planning a migration
+  - Learning about the source
+  - Investingating the data
+  - Choosing the tools
+- Short introduction to Transmogrifier
+- Migration traps
+  - Migrating images
+  - Migrating links
+  - Migrating Author information
+- Creating the pipeline
+  - Planning the migration pipeline construction
+  - Learning the source as you go
+  - Using annotations and splitter sections effectively
+  - Debugging through reporting
+  - Post processing of migrated content
+- Conclusion and lessons learned",45 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",cris@crisewing.com,Yes
+7/22/2011 14:52:25,Martijn Pieters,"Martijn is a veteran Zope developer with a long history in web applications, and a background at companies like Zope Corporation and Pareto (yes, he has written parts of Zope itself). He fled the rush-traffic of the hectic Netherlands for Norwegian wilderness and easy-going-way of life with his wife, kids and cats.
+
+Martijn is a member of the Plone framework team, and is the lucky recipient of any Javascript bug filed against Plone. He is also the architect of Transmogrifier, a framework for Plone content migrations.",Web site on Atkins - How our largest customer lost 2/3rd of the weight,"Our largest customer commissioned RelStorage, and used it in anger. With 35 million object states on an Oracle RAC it was the largest site we administered. Until we put them on a diet and reduced the site to under 12 million states. Here is how we did it.","A very large intranet (10.000 users) in use by a large retail concern had grown a little hefty around the waist. 30.000 items in the catalog, an Oracle database in the .5 terrabyte range, and content going back years.
+
+But they were running on Plone 3.0 and really wanted to move forward to the latest and greatest. So we put the server on a diet. Using structure simplification, consolidation and content archiving techniques we removed 2/3rds of the site, without loosing a day in uptime. This talk will show you how we did it, with asynchronous batching and a little elbow grease.
+
+I'll show the tricks, the tips and the lessons learned. Ready to shed some weight? Techniques used: bragging about database sizes and a lot of plone.app.async!",45 minutes,"I'm not sure. It could go either way depending on how much time I actually spend prepping., This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",mj@jarn.com,Yes
+7/22/2011 14:56:10,Érico Andrei,"Érico Andrei is co-founder and dev-lead of Simples Consultoria, a Brazilian consulting company, with 7 years of Plone development experience and portals like Brasil.gov.br and oabsp.org.br in their portfolio",A hard time giving back: Plone and Brazil,A lot of Brazilian Government sites use Plone as theirs CMS but when it comes to community collaboration we've been way behind. This talk will explain why this gap happens.,"Brazilian Plone community is very prolific in deploying portals and intranets, specially within the government, but there were few effective contributions back to the Plone core or even collective code base.
+In this talk we will understand why this happens and how our local community is dribbling bureaucracy in order to give it back to Plone.",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Particularly good for people working in education and/or government",ericof@gmail.com,Yes
+7/22/2011 15:31:56,Kyle Homstead,"Having established a mutually affectionate relationship in the late 2.x era, Kyle was swept into an early romance with Plone, enamored with its potential as a tool for building online communities.  His work has straddled both healthcare and higher education, where he has worked with institutions such as Columbia, Fisk, and Vanderbilt universities to cultivate and nurture purposeful/social hybrid communities.  Based in Northampton, MA, Kyle is but a stones throw from Boston’s vanguard plonista enclave, which is shepherded by the insightful Jazkarta team.",Provoking Engagement: Cultivating dynamic communities with Plone,"A double-edged look at the tandem technology-development and human-cultivation required to elicit participation in purposeful, online communities. The talk will explore and contrast projects in both higher-education and healthcare, illustrating some of the fantastic Plone features and add-ons that I’ve harnessed to bring the monster to life.","I will introduce two community-centered projects that were developed in Plone, one in healthcare and the other in higher education.  I’ll present in story format - looking at the initial conception, iterative development, challenges, and strategies applied to bring these communities to life.  I’ll illustrate key features in each site, talk about how they evolved, and why they’re important - taking a dualistic look at both the human and technical challenges.  I’ll even attempt to propose a recipe for the “secret sauce” of online community engagement (BAM!).
+
+ps. I haven't presented at a Plone conference, however, I have done a similar talk at regional Plone meetup events (a-la Sally Kleinfeldt).",30 minutes,"Everyone can watch this talk, drunk or otherwise., I'm not sure. It could go either way depending on how much time I actually spend prepping., Particularly good for people working in education and/or government, uh, anybody interested in building social/purposeful community",khomstead@gmail.com,No
+7/22/2011 15:36:28,Sally Kleinfeldt,"Sally Kleinfeldt's interests and experience include data and content management, information retrieval, environmental conservation, scientific visualization, and GIS. She's used Python since 2000 and Plone since 2004, and has presented numerous talks at Plone conferences and symposia. She has a Ph.D. in biology and loves creating Plone applications that make scientists more productive. Before discovering Plone, she worked on search engines, and how to use them to mine data on content-rich sites.",The Future of Search in Plone,"From the beginning, the Zope Catalog has provided Plone with out-of-the-box content search, an important feature not found in all open source content management systems. However, search engine technology has been racing ahead and user expectations of what search should do have been changing. At the same time, search engines have gone from premium enterprise product to cheap commondity. The most important search engine worth considering these days is also open source: Lucene/Solr. Several add-on products exist that integrate Solr with Plone, and interest in this technology is growing. What does Solr bring to Plone? Should Solr become part of Plone core?","IR 101: A brief history of search engines 
+- Boolean vs Probabilistic
+- The Bayesian approach and TF/IDF
+- What's a term? stemming, stopping, normalization
+- Query processing vs. document processing
+- Phrases, concepts, text mining
+- The evolution of search on the Web - from InfoSeek to Google
+- The evolution of search products - from expensive to commondity
+- The fall of search engine companies and the rise of Solr
+
+Solr and Plone: Current status
+- collective.solr
+- alm.solrindex
+- collective.recipe.solrinstance
+- [this list will be modified to reflect recent developments before the conference]
+- Using Solr to index binary documents
+- Different ways to use Solr search
+
+Solr and Plone: The Future
+- Solr integration issues 
+  - transactions
+  - synchronous vs. asynchronous indexing
+  - setup and configuration
+  - multiple processes
+- Should Solr become part of Plone core?
+
+Note: If it is acceptable, I think it would be a more interesting session if I could invite some of the major players in this domain (such as Hanno, Alan, and other Jarn folks) to share in the presentation of some of the topics.",45 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. , Particularly good for people working in education and/or government",sally@jazkarta.com,Yes
+7/22/2011 16:03:25,Clayton Parker,"Clayton Parker, senior developer at Six Feet Up, Inc., is an active member of the Plone community and Plone Foundation Member. He has presented at conferences on a wide variety of topics including buildout, GenericSetup, LDAP, theming and migration. He is also known in the Plone community as an advocate of best practices and an avid blogger on technical issue.
+
+Clayton has been developing websites using Plone since 2004, when he joined Six Feet Up as a Systems Administrator.  His hand-on experience on both sides of the development and hosting equation is something he leverages while delivering quality projects which can scale in the long term.
+
+He came to programming a circuitous route, when he discovered an aptitude for logic while while pursuing his Philosophy Major at IUPUI (Indiana  University-Purdue University Indianapolis).",Make Plone search act like Google using Solr,"Solr is a powerful open source search engine server which has become a popular choice for extending the search capabilities of Plone sites. The default configuration works well, but how do you answer the client's request to ""Make my search just like Google's""?
+
+In this talk we will take a look at the various options that are available for configuring Solr's schema and configuration. We will discuss how to set up stop words, spell checking, n-grams and alternate query handlers. We will see what effect these settings will have on the search results and find out how to debug problems when they arise.","- Introduction
+- Intro to Solr
+- Brief overview of options for Plone integration
+- Setting up a Solr Schema
+  - Overview of the most common filters
+  - Seeing the results of the changes
+  - Using copyfield to set up n-gram and spelling indexes
+- Configuring Solr
+  - Set up spelling
+  - Using the dismax query handler
+- Debugging using the Solr admin
+  - Analysis of filters
+  - Contents of indexes
+  - Searching directly against Solr to analyze results
+- Conclusion",45 minutes,"Perfect for the related technologies track. I will talk about Plone in a secondary manner., This is an extremely advanced talk. Code and configuration examples will bleed through the screen. Seat belts required.",clayton@sixfeetup.com,Yes
+7/22/2011 16:03:36,Clayton Parker,"Clayton Parker, senior developer at Six Feet Up, Inc., is an active member of the Plone community and Plone Foundation Member. He has presented at conferences on a wide variety of topics including buildout, GenericSetup, LDAP, theming and migration. He is also known in the Plone community as an advocate of best practices and an avid blogger on technical issue.
+
+Clayton has been developing websites using Plone since 2004, when he joined Six Feet Up as a Systems Administrator.  His hand-on experience on both sides of the development and hosting equation is something he leverages while delivering quality projects which can scale in the long term.
+
+He came to programming a circuitous route, when he discovered an aptitude for logic while while pursuing his Philosophy Major at IUPUI (Indiana  University-Purdue University Indianapolis).","Automate your Plone site environment with buildout, GenericSetup and the plonesite recipe.","So you have your code on the filesystem and you are using buildout; what's next? You can take your build to the next level by reducing the amount of manual steps needed to create and maintain your site. Using collective.recipe.plonesite, you can ensure that every member of your team is working on an identical Plone site at any given time.
+
+Without the plonesite recipe, when you run your buildout for the first time, you are left with an empty Zope site. This talk will show you how to utilize buildout to create a Plone site for you and make sure it is all set up via GenericSetup so you can hit the ground running.","- Introduction
+- Intro to buildout environments
+- Creating a policy package
+  - Handling python dependencies
+  - Handling GenericSetup dependencies
+- Creating profiles
+  - Common sense advice
+  - Upgrade steps
+- Putting it all together with the plonesite recipe
+- Demo
+- Conclusion",45 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous.",clayton@sixfeetup.com,Yes
+7/22/2011 16:38:11,Carlos de la Guardia,"Carlos has developed for the web for more than 15 years and has worked with Python since 2000. He has worked in dozens of Zope and Plone projects of all sizes and recently has been doing more and more Pyramid web development. He is the author of the book ""Web Development with Grok"" and has contributed to Pyramid, Plone, and other open source projects. He is currently writing a book about the Zope Object Database.",Turn your frogs into princesses with Transmogrifier,"Doing data migration from other systems to Plone can be a time intensive and error prone activity. In a big Plone project you might even need to get content from different systems, like Wordpress, Drupla, Joomla, SQL databases, FileMaker, etc.
+In this talk we show how to use Transmogrifier to add some magic to the transformation process.","- Introduction.
+- What is transmogrifier and how it works.
+- Related products and how they can help your project.
+- Creating command line scripts to make import a breeze.
+- Quick case study with example code.
+- Summary and questions.",45 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., I'm not sure. It could go either way depending on how much time I actually spend prepping.",carlos@jazkarta.com,Yes
+7/22/2011 16:48:00,Carlos de la Guardia,"Carlos has developed for the web for more than 15 years and has worked with Python since 2000. He has worked in dozens of Zope and Plone projects of all sizes and recently has been doing more and more Pyramid web development. He is the author of the book ""Web Development with Grok"" and has contributed to Pyramid, Plone, and other open source projects. He is currently writing a book about the Zope Object Database, documented with Sphinx, of course.",Documenting your project with Sphinx,"An open source project is only as good as its documentation. Even if your project is internal only, you'll find that it's worth it to keep it well documented. Sphinx is a fabulous Python tool for documentation. We'll cover in this talk how to use it and integrate it into any Plone project.","- Introduction.
+- What is Sphinx.
+- Installing Sphinx.
+- Quick tutorial.
+- Adding sphinx to your Plone project.
+- Publishing your docs automatically when changed.
+- Adding bells and whistles, like disqus comments or surveys.
+- Summary and questions.",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., I'm not sure. It could go either way depending on how much time I actually spend prepping., Perfect for the related technologies track. I will talk about Plone in a secondary manner.",carlos@jazkarta.com,Yes
+7/22/2011 16:50:49,Alex Clark,"Python consultant, and all around nice guy.","Bringing the rock solid enterprise marketing strategy of Zenoss to Plone, and other good stuff too",Zenoss vs. Plone,"This talk will compare and contrast Zenoss and Plone for the purpose of ripping off any and all good ideas that may benefit Plone:
+
+* Marketing. They appear to have a brilliant enterprise marketing strategy.
+* Features. They have several features that Plone could use, most notably a ""zenpack"" command to install packages (sans buildout).
+* Structure. Zenoss is one company. Plone is hundreds plus the foundation. How can we make the end result the same? I.e. how can we build as slick and polished product given we are spread across so many organizations.
+
+Folks interested in making Plone appear better from the outside and perform better on the inside should attend.
+
+
+
+",I'm not sure - squeeze me in where it makes sense,"Everyone can watch this talk, drunk or otherwise., Plone marketeers",aclark@aclark.net,I have submitted in the past but never talked
+7/22/2011 16:53:23,Nate Aune,"Nate has been using Plone since 2002, and founded Jazkarta shortly after to create amazing and beautiful Plone sites for non-profits, universities and startups. He runs the Boston Plone and Django user groups, and has been known to travel to many distant lands for the love of sprinting.",When not to use Plone: and why you might consider Django or Pyramid,"In the many years that we've been providing Plone consulting services, we've done some projects where Plone was clearly not the best choice of technology for the job, and we paid the price of making the wrong decision. 
+
+In other projects, we've steered the customer to use one of the Python web application frameworks such as Django or Pyramid, and we and the customer have been pleased with the results.
+
+This talk will explore scenarios when a full-featured CMS such as Plone is the right tool for the job, and when a more lightweight web framework is preferable.","Anatomy of a CMS project
+  - Primarily content authoring
+  - Need for workflow
+  - Few if any custom content types
+  - Primarily a website, not a web application
+
+Anatomy of a custom web application
+  - No need for workflow or strict content rules
+  - Rapidly changing requirements
+  - Limited functionality to start, but need to add more as time goes on
+  
+Django - one framework for rapidly building web applications
+  - How it differs from Plone
+  - Rich ecosystem of add-ons
+  - Build from nothing, versus Plone customization of taking things away
+  - Examples of Django projects (including code examples)
+
+Pyramid
+  - Borrows many concepts from Zope
+  - Will be familiar to Plone developers
+  - Even more lightweight than Django
+  - Examples of Pyramid projects (including code examples)
+
+Take aways
+  - Top 5 reasons to use Plone
+  - Top 5 reasons to use Django
+  - Top 5 reasons to use Pyramid
+
+Questions
+  - Who in the audience has built a web application on Plone that didn't go well
+  - Who has built a Django app and what were the pros/cons
+  - Who has built a Pyramid app and what were the pros/cons
+  - Other questions?",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. , Perfect for the related technologies track. I will talk about Plone in a secondary manner.",natea@jazkarta.com,Yes
+7/22/2011 16:59:04,Carlos de la Guardia,"Carlos has developed for the web for more than 15 years and has worked with Python since 2000. He has worked in dozens of Zope and Plone projects of all sizes and recently has been doing more and more Pyramid web development. He is the author of the book ""Web Development with Grok"" and has contributed to Pyramid, Plone, and other open source projects. He is currently writing a book about the Zope Object Database.",Plone is great...Python is too!,"So you decided to use Plone for your project or are considering it. One of the greatest benefits about that decision is that you get to work with Python. Don't stay on the shallow end of the pool, go deeper into Python and see how you can use it to make your site work better and maybe even do some parts of it independent Python apps.","- Introduction.
+- The power of Python.
+- Why getting into Python is good for your project.
+- Python technologies you can use to improve your project.
+- Python technologies you can use when Plone won't fit your use case.
+- Summary and questions.",30 minutes,"Everyone can watch this talk, drunk or otherwise.",carlos@jazkarta.com,Yes
+7/22/2011 17:05:57,Carlos de la Guardia,"Carlos has developed for the web for more than 15 years and has worked with Python since 2000. He has worked in dozens of Zope and Plone projects of all sizes and recently has been doing more and more Pyramid web development. He is the author of the book ""Web Development with Grok"" and has contributed to Pyramid, Plone, and other open source projects. He is currently writing a book about the Zope Object Database.",ZODB tips and tricks,"We may know that our content is safely stored in the ZODB, but there's a lot more than the Zope Object Database can do for us. In this talk we cover some tips and tricks to do things like rescue crashed databases, do ad-hoc reports of database objects, view the contents of the ZODB outside of Plone, using relstorage and more.","- Introduction.
+- Refresher about how the ZODB works.
+- Some things you may not know about the ZODB.
+- Tips and tricks for using the ZODB in different categories.
+  - Useful thrid party tools.
+  - looking for your data.
+  - running ad-hoc scripts.
+- Summary and questions.",30 minutes,"Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., I'm not sure. It could go either way depending on how much time I actually spend prepping.",carlos@jazkarta.com,Yes
+CUTOFF
+,Alan Runyan,,Beginner mistakes.  Expert failures.,"A round-up of most of the mistakes people developing/deploying Plone
+categorized by experience level.
+",,,,runyaga@gmail.com,Yes
+7/23/2011 8:23:28,Nejc Zupan,"Nejc has been working with Plone since 2006. Since that time he has lectured at several Plone workshops, attended (and co-organized) Plone sprints and spoke at conferences. Nejc is a Plone Core contributor since 2010 and was nominated for the 2010 Help Channel Superstar. For the past 4 years, he's been running a Plone consultancy firm in Slovenia with customers in many European countries and the States.",Plone Article revisited -> Raptus Article   ,"Our beloved Plone Article has been with us for many years. Lots of non-techy Plone users grew in love with it because it enabled them to quickly and simply add content with media to Plone and apply a standardized layout to it. However, being an old product it lacks support for Plone 4 and there is no mainstream replacement for it. Look no further than Raptus Article. Raptus Article has a very similar featureset to Plone Article, but it uses modern techiques to apply apply media-supported layouts to content. It's the perfect replacement for the outdated Plone Article.","Raptus Article provides a configurable article content type (it replaces the default Page content type). All you need for a smart page in one step. The basis is an Article content-type, which is folderish so you can add sub-articles, images, files, etc. into it. Then you choose from a range of so called ""components"" to display content that is in your Article: listings, galleries, coverflows maps, the list goes on pretty far. For example, you can enable the ""gallery-right"" component and that will display all images in your article in a viewlet on the right side of the article. Moreover, you can reorder/hide/display any of these images with a single click on a small toolbar that is shown over each image.
+
+Raptus Article uses Zope Component Architecture to provide it's features. Enabling a ""gallery-right"" component simply means applying one marker interface to your Article.  It's because of this design, it's fairly easy to extend current components or even add your custom ones. Also, all components live in separate python packages, so you can choose to install only the ones you need, not the whole stack of them. 
+
+Everyday users can now again create media rich pages with good layout in Plone. Learn how by coming to this talk!",30 minutes,"Everyone can watch this talk, drunk or otherwise., Ideal for beginning coders, intermediate administrators, and anyone else who knows just enough to be dangerous., Decision makers will go gaga for this one. , People stuck with Plone 2.5 and 3 because of cliens requiring Plone Article",nejc.zupan@gmail.com,Yes
+7/26/2011 4:44:37,Geir Bækholt and Paul Everitt,"Geir is former president of the Plone Foundation board of directors, head of Jarn, and longtime Plone developer.  Paul is a former Plone Foundation president as well as executive director, now with Agendaless Consulting.","Role of the Plone Foundation: Past, Present, Future","Why doesn't the Foundation coordinate the software? A quick tour through the startup, early years, and into the present explains the role of the Plone Foundation.","Paul will give a tour of characters and events just before and during the early years.  Who did what and why.  Geir will handle the second half of the Foundations' life, including the present and directions the current board is going.
+
+We will make sure to leave enough time for lots of audience questions, based on 30 or 45 minutes.",I'm not sure - squeeze me in where it makes sense,"Everyone can watch this talk, drunk or otherwise.",pauleveritt@me.com,Yes
